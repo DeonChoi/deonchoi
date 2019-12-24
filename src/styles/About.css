@@ -1,0 +1,13 @@
+.aboutContainer {
+    min-height: 100vh;
+    color: white;
+    margin: 0 20%;
+}    
+
+.skillIconRow {
+    width: 100%;
+}
+.skillIcon {
+    width: 55px;
+    margin: 5px;
+}

@@ -1,0 +1,40 @@
+.workContainer {
+    min-height: 100vh;
+    margin: 0 10%;
+}    
+
+.githubIcon {
+    width: 30px;    
+    height: 30px;
+    margin: 0 15px 0 0;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+.githubIcon:hover {
+    opacity:0.5;
+}
+
+/* new styles */
+.projectCard {
+    width: 34%;
+    margin: 20px 15px;
+    
+}
+.projectImage {
+    width: 100%;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+.projectImage:hover {
+    opacity:0.5;
+}
+.projectTitle {
+    font-size: 36px;
+}
+.techstack {
+    margin: 0 1px;
+}
