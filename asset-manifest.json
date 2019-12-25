@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fcf16b1a.chunk.css",
+    "main.css": "/static/css/main.3d37a715.chunk.css",
     "main.js": "/static/js/main.d541a447.chunk.js",
     "main.js.map": "/static/js/main.d541a447.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ca31ce51.js",
@@ -8,9 +8,9 @@
     "static/js/2.077bf6be.chunk.js": "/static/js/2.077bf6be.chunk.js",
     "static/js/2.077bf6be.chunk.js.map": "/static/js/2.077bf6be.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.be4ada51a0703bcaa4a8f1a7b9a83291.js": "/precache-manifest.be4ada51a0703bcaa4a8f1a7b9a83291.js",
+    "precache-manifest.037b4701980d2872271784e3f1f1de8a.js": "/precache-manifest.037b4701980d2872271784e3f1f1de8a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fcf16b1a.chunk.css.map": "/static/css/main.fcf16b1a.chunk.css.map",
+    "static/css/main.3d37a715.chunk.css.map": "/static/css/main.3d37a715.chunk.css.map",
     "static/js/2.077bf6be.chunk.js.LICENSE": "/static/js/2.077bf6be.chunk.js.LICENSE",
     "static/media/Delish.png": "/static/media/Delish.9dec79ff.png",
     "static/media/DeonChoiResume.png": "/static/media/DeonChoiResume.958537cf.png",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.ca31ce51.js",
     "static/js/2.077bf6be.chunk.js",
-    "static/css/main.fcf16b1a.chunk.css",
+    "static/css/main.3d37a715.chunk.css",
     "static/js/main.d541a447.chunk.js"
   ]
 }
