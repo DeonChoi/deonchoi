@@ -31,7 +31,7 @@ const App = () => {
 
   return (
 
-    <Router basename={'/'}>
+    <Router basename={'/#'}>
         <header className='fixed-top'>
           <Zoom bottom cascade>
             <img onClick={toggleNav} src={MenuIcon} alt='Menu Icon' className='menuIcon float-right'/>
