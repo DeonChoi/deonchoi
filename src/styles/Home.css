@@ -4,6 +4,9 @@
 }    
 
 @media only screen and (max-width: 400px) {
+    .homeContainer {
+        margin: -5% 0%;
+    } 
     .homeName {
         font-size: 5rem;
     }
