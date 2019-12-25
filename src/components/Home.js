@@ -22,7 +22,7 @@ const Home = () => {
                     type: 'forward',
                 },
                 ]}
-                className='display-2'
+                className='display-2 homeName'
             />
             <Scramble
                 autoStart
@@ -38,7 +38,7 @@ const Home = () => {
                     type: 'forward',
                 },
                 ]}
-                className='display-4'
+                className='display-4 homeDescription'
             />
             <Scramble
                 autoStart
@@ -54,7 +54,7 @@ const Home = () => {
                     type: 'forward',
                 },
                 ]}
-                className='display-4'
+                className='display-4 homeDescription'
             />
             </Zoom>
         </div>

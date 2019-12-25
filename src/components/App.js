@@ -23,25 +23,22 @@ const App = () => {
     isOpen ? setIsOpen(false) : setIsOpen(true);
   }
   const openNavStyle = {
-    width: '250px'
+    width: '18rem'
   };
   const closeNavStyle = {
-    width: '0px'
+    width: '0rem'
   };
 
   return (
 
     <Router basename={'/'}>
         <header className='fixed-top'>
-          {/* <div className='float-right'> */}
           <Zoom bottom cascade>
             <img onClick={toggleNav} src={MenuIcon} alt='Menu Icon' className='menuIcon float-right'/>
           </Zoom>
-          {/* </div> */}
         </header>
 
       <div id='mySidenav' className='sidenav' style={ isOpen ? openNavStyle : closeNavStyle }>
-        {/* <a href='javascript:void(0)' className='closeButton' onClick={toggleNav}>&times;</a> */}
         <Link to={'/'} onClick={toggleNav}>Home</Link>
         <Link to={'/about'} onClick={toggleNav}>About</Link>
         <Link to={'/work'} onClick={toggleNav}>Work</Link>
@@ -53,7 +50,7 @@ const App = () => {
         <Route exact path='/work' component={Work} />
       </main>
 
-      <footer className='text-center fixed-bottom font-weight-light text-monospace'>
+      <footer className='text-center fixed-bottom font-weight-light text-monospace footer'>
         <div className=''>
           <Zoom right cascade>
             <a href='mailto:deon.choi@gmail.com' className='contactButton'>

@@ -25,10 +25,10 @@ const About = () => {
             
                 <div>
                     <Roll top big cascade>
-                    <h1 className='display-3'>About Me</h1>
+                    <h1 className='display-4'>About Me</h1>
                     </Roll>
                     <Fade left>
-                    <p className='text-justify font-weight-bold'>
+                    <p className='text-justify font-weight-bold aboutDescription'>
                         Hi, my name is Deon Choi. 
                         I graduated from <a className='' href='https://www.gwu.edu/' target='_blank' rel="noopener noreferrer">The George Washington University</a> in May 2019 with a Bachelor of Science in Statistics & a Minor in Computer Science. 
                         Shortly after graduation, I decided to dive into the world of web development.

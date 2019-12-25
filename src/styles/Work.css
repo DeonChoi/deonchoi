@@ -4,9 +4,9 @@
 }    
 
 .githubIcon {
-    width: 30px;    
-    height: 30px;
-    margin: 0 15px 0 0;
+    width: 2rem;    
+    height: 2rem;
+    margin: 0 1rem 0 0;
     opacity: 1;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
@@ -16,11 +16,9 @@
     opacity:0.5;
 }
 
-/* new styles */
 .projectCard {
-    width: 34%;
-    margin: 20px 15px;
-    
+    width: 40%;
+    margin: 1.25rem 1rem;
 }
 .projectImage {
     width: 100%;
@@ -33,8 +31,290 @@
     opacity:0.5;
 }
 .projectTitle {
-    font-size: 36px;
+    font-size: 2.50rem;
 }
 .techstack {
-    margin: 0 1px;
+    font-size: 1.15rem;
+    margin: 0 0.125rem;
 }
+
+@media only screen and (max-width: 321px) {
+    .workContainer {
+        margin: -5% 0%;
+    }   
+    .projectCard {
+        width: 51%;
+        height: 15rem;
+        margin: 0.5rem 0rem;
+    } 
+    .projectTitle {
+        font-size: 1.5rem;
+        margin: 0.5rem 0rem;
+    }
+    .techstack {
+        font-size: 1rem;
+        margin: 0.1rem;
+    }
+    .projectImage {
+        width: 70%;
+    }
+}
+/* Extra small devices (phones, 400px and down) */
+@media only screen and (min-width: 321px) {
+    .workContainer {
+        margin: -5% 0%;
+    }   
+    .projectCard {
+        width: 51%;
+        height: 17rem;
+        margin: 1rem 0rem;
+    } 
+    .projectTitle {
+        font-size: 1.5rem;
+        margin: 0.5rem 0rem;
+    }
+    .techstack {
+        font-size: 1rem;
+        margin: 0.125rem;
+    }
+    .projectImage {
+        width: 75%;
+    }
+}
+@media only screen and (min-width: 400px) and (orientation : portrait){
+    .workContainer {
+        margin: -5% 0;
+    }   
+    .projectCard {
+        width: 51%;
+        height: 20rem;
+        margin: 0.4rem 0;
+    } 
+    .projectImage {
+        width: 80%;
+    }
+  }
+  @media only screen and (min-width: 400px) and (orientation : landscape){
+    .workContainer {
+        margin: 0;
+    }
+    .projectTitle {
+        font-size: 1.48rem;
+        margin: 0.5rem 0rem;
+    }
+    .projectCard {
+        height: 18rem;
+    } 
+    .techstack {
+        font-size: 1rem;
+        margin: 0.125rem;
+    }
+    .projectCard {
+        width: 23%;
+        margin: 0rem 0.5rem;
+    }
+    .projectImage {
+        width: 100%;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (orientation : portrait) {
+    .workContainer {
+        margin: 0% 5%;
+    }
+    .projectTitle {
+        font-size: 1.5rem;
+    }
+    .projectCard {
+        height: 18rem;
+    } 
+    .techstack {
+        font-size: 0.875rem;
+    }
+    .projectCard {
+        width: 33%;
+        margin: 0rem 0.5rem;
+    }
+    .projectImage {
+        width: 80%;
+    }
+  }
+  @media only screen and (min-width: 600px) and (orientation : landscape){
+    .workContainer {
+        margin: 0% 0%;
+    }
+    .projectTitle {
+        font-size: 1.48rem;
+        margin: 0.5rem 0rem;
+    }
+    .projectCard {
+        height: 18rem;
+    } 
+    .techstack {
+        font-size: 0.9rem;
+    }
+    .projectCard {
+        width: 23%;
+        margin: 0rem 0.5rem;
+    }
+    .projectImage {
+        width: 100%;
+    }
+  }
+  
+   /* Medium devices (portrait tablets, 768px and up) */
+   @media only screen and (min-width: 768px) {
+    .workContainer {
+        margin: 0 5%;
+    }
+    .projectTitle {
+        font-size: 1.7rem;
+    }
+    .projectCard {
+        height: 22rem;
+    } 
+    .techstack {
+        font-size: 1rem;
+        margin: 0.2rem;
+    }
+    .projectCard {
+        width: 40%;
+        margin: 0rem 1rem;
+    }
+    .projectImage {
+        width: 100%;
+    }
+  }
+  @media only screen and (min-width: 768px) and (orientation : landscape){
+    .workContainer {
+        margin: -2% 0;
+    }
+    .projectTitle {
+        font-size: 1.27rem;
+        margin: 0.4rem 0rem;
+    }
+    .projectCard {
+        height: 14rem;
+    } 
+    .techstack {
+        font-size: 0.8rem;
+    }
+    .projectCard {
+        width: 23%;
+        margin: 0rem 0.5rem;
+    }
+    .projectImage {
+        width: 100%;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .workContainer {
+        margin: -2% 0;
+    }
+    .projectTitle {
+        font-size: 1.5rem;
+        margin: 0.2rem 0rem;
+    }
+    .projectCard {
+        height: 20rem;
+        width: 40%;
+        margin: 0.5rem 1rem;
+    } 
+    .techstack {
+        font-size: 1rem;
+    }
+    .projectImage {
+        width: 75%;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .workContainer {
+        margin: -2% 0;
+    }  
+    .projectCard {
+        width: 33%;
+        height: 19.5rem;
+        margin: 0.75rem 0.75rem;
+    }
+    .projectImage {
+        width: 80%;
+    }
+    .projectTitle {
+        font-size: 2.2rem;
+    }
+    .techstack {
+        font-size: 0.9rem;
+        margin: 0.1rem;
+    }
+    
+  }
+
+  /* Extra large devices (large laptops and desktops, 1440px and up) */
+  @media only screen and (min-width: 1440px) {
+    .workContainer {
+        margin: -2% 10%;
+    }    
+    .projectCard {
+        width: 34%;
+        height: 22rem;
+        margin: 1rem 1rem;
+    }
+    .projectImage {
+        width: 90%;
+    }
+    .projectTitle {
+        font-size: 2.5rem;
+    }
+    .techstack {
+        font-size: 1rem;
+        margin: 0.125rem;
+    }
+  }
+  
+  @media only screen and (min-width: 1700px) {
+    .workContainer {
+        margin: -2% 10%;
+    }    
+    .projectCard {
+        width: 34%;
+        height: 25rem;
+        margin: 3rem;
+    }
+    .projectImage {
+        width: 100%;
+    }
+    .projectTitle {
+        font-size: 2.5rem;
+    }
+    .techstack {
+        font-size: 1rem;
+        margin: 0.125rem;
+    }
+  }
+
+  @media only screen and (min-width: 2000px) {
+    .workContainer {
+        margin: -2% 0%;
+    }    
+    .projectCard {
+        width: 20%;
+        height: 25rem;
+        margin: 2rem;
+    }
+    .projectImage {
+        width: 100%;
+    }
+    .projectTitle {
+        font-size: 2.5rem;
+    }
+    .techstack {
+        font-size: 1rem;
+        margin: 0.125rem;
+    }
+  }
+  

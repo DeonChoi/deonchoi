@@ -1,13 +1,122 @@
 .aboutContainer {
     min-height: 100vh;
     color: white;
-    margin: 0 20%;
+    margin: -5% 20%;
 }    
 
 .skillIconRow {
     width: 100%;
 }
 .skillIcon {
-    width: 55px;
-    margin: 5px;
+    width: 3.5rem;
+    margin: 0.25rem;
 }
+
+    /* Extra small devices (phones, 400px and down) */
+    @media only screen and (max-width: 400px) {
+    .aboutContainer {
+        margin: -5% 5%;
+    }  
+    .aboutDescription {
+        font-size: 1.25rem;
+    }
+    .skillIcon {
+        width: 3rem;
+        margin: 0.125rem;
+    }
+  }
+
+  /* Extra small devices (phones, 400px and up) */
+  @media only screen and (min-width: 400px) and (orientation:portrait) {
+    .aboutContainer {
+        margin: 0 5%;
+    }  
+    .aboutDescription {
+        font-size: 1.5rem;
+    }
+  }
+  @media only screen and (min-width: 400px) and (orientation:landscape){
+    .aboutContainer {
+        margin: -3% 5%;
+    }  
+    .aboutDescription {
+        font-size: 1.3rem;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .aboutContainer {
+        margin: -5% 5%;
+    }  
+    .aboutDescription {
+        font-size: 1.25rem;
+    }
+  }
+  
+  /* Medium devices (portrait tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .aboutContainer {
+        margin: -5% 10%;
+    }    
+    .skillIcon {
+        width: 2.75rem;
+        margin: 0.1rem;
+    }
+    .aboutDescription {
+        font-size: 0.85rem;
+    }
+  }
+  @media only screen and (min-width: 768px) and (orientation:portrait) {
+    .aboutContainer {
+        margin: -6% 10%;
+    }    
+    .skillIcon {
+        width: 3.25rem;
+        margin: 0.25rem;
+    }
+    .aboutDescription {
+        font-size: 1rem;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .aboutContainer {
+        margin: -5% 10%;
+    }    
+    
+    .skillIconRow {
+        width: 100%;
+    }
+    .skillIcon {
+        width: 3.5rem;
+        margin: 0.1rem;
+    }
+    .aboutDescription {
+        font-size: 1.1rem;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    
+  }
+
+  @media only screen and (min-width: 2000px) {
+    .aboutContainer {
+        margin: 0% 35%;
+    }    
+    
+    .skillIconRow {
+        width: 100%;
+    }
+    .skillIcon {
+        width: 3.2rem;
+        margin: 0.15rem;
+    }
+    .aboutDescription {
+        font-size: 1.2rem;
+    }
+  }
+  

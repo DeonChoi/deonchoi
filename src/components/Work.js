@@ -6,7 +6,6 @@ import FlixIcon from '../images/work/Flix.png';
 import PhraseHunterIcon from '../images/work/PhraseHunter.png';
 import ShrinkifyIcon from '../images/work/Shrinkify.png';
 import GitHubIon from '../images/work/githubSmall.png';
-import LiveDemoIcon from '../images/work/liveDemo.png';
 import Zoom from 'react-reveal/Zoom';
 
 
