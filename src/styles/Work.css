@@ -59,7 +59,6 @@
         width: 70%;
     }
 }
-/* Extra small devices (phones, 400px and down) */
 @media only screen and (min-width: 321px) {
     .workContainer {
         margin: -5% 0%;
@@ -118,7 +117,6 @@
     }
   }
   
-  /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) and (orientation : portrait) {
     .workContainer {
         margin: 0% 5%;
@@ -163,7 +161,6 @@
     }
   }
   
-   /* Medium devices (portrait tablets, 768px and up) */
    @media only screen and (min-width: 768px) {
     .workContainer {
         margin: 0 5%;
@@ -209,7 +206,6 @@
     }
   }
   
-  /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
     .workContainer {
         margin: -2% 0;
@@ -231,11 +227,7 @@
     }
   }
   
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    .workContainer {
-        margin: -2% 0;
-    }  
     .projectCard {
         width: 33%;
         height: 19.5rem;
@@ -254,7 +246,6 @@
     
   }
 
-  /* Extra large devices (large laptops and desktops, 1440px and up) */
   @media only screen and (min-width: 1440px) {
     .workContainer {
         margin: -2% 10%;
@@ -277,9 +268,6 @@
   }
   
   @media only screen and (min-width: 1700px) {
-    .workContainer {
-        margin: -2% 10%;
-    }    
     .projectCard {
         width: 34%;
         height: 25rem;

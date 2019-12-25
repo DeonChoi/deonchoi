@@ -8,9 +8,7 @@ const Home = () => {
     return (
         <div className='d-flex flex-column text-monospace align-items-center justify-content-center homeContainer'>
         <Zoom>
-            <Scramble
-                autoStart
-                text='Deon Choi'
+            <Scramble autoStart text='Deon Choi' className='display-2 homeName'
                 steps={[
                 {
                     roll: 25,
@@ -22,11 +20,8 @@ const Home = () => {
                     type: 'forward',
                 },
                 ]}
-                className='display-2 homeName'
             />
-            <Scramble
-                autoStart
-                text='Full Stack Developer'
+            <Scramble autoStart text='Full Stack Developer' className='display-4 homeDescription'
                 steps={[
                 {
                     roll: 20,
@@ -38,11 +33,8 @@ const Home = () => {
                     type: 'forward',
                 },
                 ]}
-                className='display-4 homeDescription'
             />
-            <Scramble
-                autoStart
-                text='San Francisco Bay Area'
+            <Scramble autoStart text='San Francisco Bay Area' className='display-4 homeDescription'
                 steps={[
                 {
                 roll: 20,
@@ -54,7 +46,6 @@ const Home = () => {
                     type: 'forward',
                 },
                 ]}
-                className='display-4 homeDescription'
             />
             </Zoom>
         </div>
