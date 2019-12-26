@@ -85,4 +85,10 @@ footer {
   .sidenav a {
     font-size: 3rem;
   }
+  .menuIcon {
+    width: 4rem;
+  }
+  .contactImage {
+    width: 3.75rem;
+  }
 }
