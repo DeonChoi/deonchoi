@@ -44,7 +44,15 @@
     }
   }
   
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 600px) and (orientation:portrait)  {
+    .aboutContainer {
+        margin: -5% 5%;
+    }  
+    .aboutDescription {
+        font-size: 1.25rem;
+    }
+  }
+  @media only screen and (min-width: 600px) and (orientation:landscape)  {
     .aboutContainer {
         margin: -5% 5%;
     }  
