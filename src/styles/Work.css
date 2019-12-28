@@ -26,7 +26,7 @@
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
-    border: 0.5px solid rgb(58, 58, 58);
+    border: 1px solid rgb(58, 58, 58);
 }
 .projectImage:hover {
     opacity:0.5;
@@ -59,14 +59,16 @@
         margin: 0.5rem 0rem;
     }
     .techstack {
-        font-size: 1rem;
-        margin: 0.075rem;
+        font-size: 1.1rem;
+        margin: 0.2rem;
     }
     .projectImage {
         width: 60%;
     }
     .techstackRow {
         width: 30%;
+        display: flex;
+        flex-direction: column;
     }
 }
 @media only screen and (min-width: 321px) {
@@ -89,11 +91,13 @@
         margin: 0.5rem 0rem;
     }
     .techstack {
-        font-size: 1rem;
-        margin: 0.1rem;
+        font-size: 1.15rem;
+        margin: 0.2rem;
     }
     .techstackRow {
         width: 30%;
+        display: flex;
+        flex-direction: column;
     }
     .projectImage {
         width: 60%;
@@ -123,11 +127,17 @@
     }
     .techstackRow {
         width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+    .techstack {
+        font-size: 1.25rem;
+        margin: 0.2rem;
     }
   }
   @media only screen and (min-width: 400px) and (orientation : landscape){
     .workContainer {
-        margin: 0;
+        margin: -7% 0%;
     }
     .projectTitle {
         font-size: 1.48rem;
@@ -154,6 +164,10 @@
     }
     .techstackRow {
         width: 100%;
+    }
+    .techstack {
+        font-size: 1.1rem;
+        margin: 0.15rem;
     }
   }
   
@@ -187,7 +201,7 @@
   }
   @media only screen and (min-width: 600px) and (orientation : landscape){
     .workContainer {
-        margin: 0% 0%;
+        margin: -7% 0%;
     }
     .projectTitle {
         font-size: 1.48rem;
@@ -211,11 +225,15 @@
     .techstackRow {
         width: 100%;
     }
+    .techstack {
+        font-size: 1.1rem;
+        margin: 0.15rem;
+    }
   }
   
-   @media only screen and (min-width: 768px) {
+   @media only screen and (min-width: 768px) and (orientation : portrait){
     .workContainer {
-        margin: 0 5%;
+        margin: -5% 5%;
     }
     .projectTitle {
         font-size: 1.7rem;
@@ -223,6 +241,9 @@
     .projectCard {
         height: 22rem;
     } 
+    .techstackRow {
+        display: inline;
+    }
     .techstack {
         font-size: 1rem;
         margin: 0.2rem;
@@ -237,7 +258,7 @@
   }
   @media only screen and (min-width: 768px) and (orientation : landscape){
     .workContainer {
-        margin: -2% 0;
+        margin: -8% 0;
     }
     .projectTitle {
         font-size: 1.27rem;
@@ -276,6 +297,9 @@
     }
     .projectImage {
         width: 65%;
+    }
+    .techstackRow {
+        display: inline;
     }
   }
   
