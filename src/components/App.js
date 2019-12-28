@@ -14,6 +14,8 @@ import EmailIcon from '../images/footer/email.png';
 import ResumeIcon from '../images/footer/resume.png';
 import DeonChoiResume from '../images/footer/DeonChoiResume.png';
 import MenuIcon from '../images/footer/menu.png';
+import ResumePDF from '../images/footer/DeonChoi_Resume.pdf';
+
 
 const App = () => {
 
@@ -68,7 +70,7 @@ const App = () => {
             </a>
           </Zoom>
           <Zoom top cascade>
-            <a href={DeonChoiResume} target='_blank' rel='noopener noreferrer' className='contactButton'>
+            <a href={ResumePDF} target='_blank' rel='noopener noreferrer' className='contactButton'>
               <img src={ResumeIcon} alt='Resume Icon' className='contactImage'/>
             </a>
           </Zoom>
