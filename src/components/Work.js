@@ -23,7 +23,7 @@ const Work = () => {
 
                     <div className='align-items-center justify-content-center d-flex'>
                         <a target='_blank' href='https://github.com/DeonChoi/shrinkURL' rel='noopener noreferrer' className=''>
-                            <img src={GitHubIon} alt='Github Repository' className='githubIcon'/>
+                            <img src={GitHubIon} alt='Github Repository for Shrinkify project' className='githubIcon'/>
                         </a>
                         <span className='projectTitle'>Shrinkify</span>
                     </div>
@@ -44,11 +44,11 @@ const Work = () => {
 
                 <div className='projectInfo'>
                     <a target='_blank' href='https://deonchoi.github.io/flix-app/' rel='noopener noreferrer' className=''>
-                        <img src={FlixIcon} alt='Shrinkify Project' className='projectImage'/>
+                        <img src={FlixIcon} alt='Flix Project' className='projectImage'/>
                     </a>
                     <div className='align-items-center justify-content-center d-flex'>
                         <a target='_blank' href='https://github.com/DeonChoi/flix-app' rel='noopener noreferrer' className=''>
-                            <img src={GitHubIon} alt='Github Repository' className='githubIcon'/>
+                            <img src={GitHubIon} alt='Github Repository for Flix project' className='githubIcon'/>
                         </a>
                         <span className='projectTitle'>Flix</span>
                     </div>
@@ -66,11 +66,11 @@ const Work = () => {
 
                 <div className='projectInfo'>
                     <a target='_blank' href='https://deonchoi.github.io/recipe-app/' rel='noopener noreferrer' className=''>
-                        <img src={DelishIcon} alt='Shrinkify Project' className='projectImage'/>
+                        <img src={DelishIcon} alt='Delish Project' className='projectImage'/>
                     </a>
                     <div className='align-items-center justify-content-center d-flex'>
                         <a target='_blank' href='https://github.com/DeonChoi/recipe-app' rel='noopener noreferrer' className=''>
-                            <img src={GitHubIon} alt='Github Repository' className='githubIcon'/>
+                            <img src={GitHubIon} alt='Github Repository for Delish project' className='githubIcon'/>
                         </a>
                         <span className='projectTitle'>Delish</span>
                     </div>
@@ -87,11 +87,11 @@ const Work = () => {
             <div className='projectCard'>
                 <div className='projectInfo'>
                     <a target='_blank' href='https://deonchoi.github.io/OOPgameShowApp/' rel='noopener noreferrer' className=''>
-                        <img src={PhraseHunterIcon} alt='Shrinkify Project' className='projectImage'/>
+                        <img src={PhraseHunterIcon} alt='Phrase Hunter Project' className='projectImage'/>
                     </a>
                     <div className='align-items-center justify-content-center d-flex'>
                         <a target='_blank' href='https://github.com/DeonChoi/OOPgameShowApp' rel='noopener noreferrer' className=''>
-                            <img src={GitHubIon} alt='Github Repository' className='githubIcon'/>
+                            <img src={GitHubIon} alt='Github Repository for Phrase Hunter project' className='githubIcon'/>
                         </a>
                         <span className='projectTitle'>Phrase Hunter</span>
                     </div>

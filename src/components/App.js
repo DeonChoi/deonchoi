@@ -12,9 +12,9 @@ import GithubIcon from '../images/footer/github.png';
 import LinkedInIcon from '../images/footer/linkedin.png';
 import EmailIcon from '../images/footer/email.png';
 import ResumeIcon from '../images/footer/resume.png';
-import DeonChoiResume from '../images/footer/DeonChoiResume.png';
+// import DeonChoiResume from '../images/footer/DeonChoiResume.png';
 import MenuIcon from '../images/footer/menu.png';
-import ResumePDF from '../images/footer/DeonChoi_Resume.pdf';
+import ResumePDF from '../images/footer/DeonChoiResume.pdf';
 
 
 const App = () => {
@@ -36,7 +36,7 @@ const App = () => {
     <Router basename={'/#'}>
         <header className='fixed-top'>
           <Zoom bottom cascade>
-            <img onClick={toggleNav} src={MenuIcon} alt='Menu Icon' className='menuIcon float-right'/>
+            <img onClick={toggleNav} src={MenuIcon} alt='Menu Navigation' className='menuIcon float-right'/>
           </Zoom>
         </header>
 
@@ -56,22 +56,22 @@ const App = () => {
         <div className=''>
           <Zoom right cascade>
             <a href='mailto:deon.choi@gmail.com' className='contactButton'>
-              <img src={EmailIcon} alt='Email Icon' className='contactImage'/>
+              <img src={EmailIcon} alt='Email Link for Deon Choi' className='contactImage'/>
             </a>
           </Zoom>
           <Zoom top cascade>
             <a href='https://github.com/deonchoi' target='_blank' rel='noopener noreferrer' className='contactButton'>
-              <img src={GithubIcon} alt='Github Icon' className='contactImage'/>
+              <img src={GithubIcon} alt='GitHub page for Deon Choi' className='contactImage'/>
             </a>
           </Zoom>
           <Zoom right cascade>
             <a href='https://www.linkedin.com/in/deon-choi-b3019b128/' target='_blank' rel='noopener noreferrer' className='contactButton'>
-              <img src={LinkedInIcon} alt='LinkedIn Icon' className='contactImage'/>
+              <img src={LinkedInIcon} alt='LinkedIn page for Deon Choi' className='contactImage'/>
             </a>
           </Zoom>
           <Zoom top cascade>
             <a href={ResumePDF} target='_blank' rel='noopener noreferrer' className='contactButton'>
-              <img src={ResumeIcon} alt='Resume Icon' className='contactImage'/>
+              <img src={ResumeIcon} alt='Resume for Deon Choi' className='contactImage'/>
             </a>
           </Zoom>
         </div>

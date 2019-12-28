@@ -43,16 +43,16 @@ const About = () => {
             
             <Roll bottom big cascade>
                 <div className='d-flex flex-wrap justify-content-between skillIconRow'>
-                    <ReactTooltip /><img src={HtmlIcon} alt='HTML Icon' className='skillIcon' data-tip='HTML 5'/>
-                    <ReactTooltip /><img src={CssIcon} alt='CSS Icon' className='skillIcon' data-tip='CSS 3'/>
-                    <ReactTooltip /><img src={JavaScriptIcon} alt='JavaScript Icon' className='skillIcon' data-tip='JavaScript'/>
-                    <ReactTooltip /><img src={jQueryIcon} alt='jQuery Icon' className='skillIcon' data-tip='jQuery'/>
-                    <ReactTooltip /><img src={SassIcon} alt='SASS Icon' className='skillIcon' data-tip='SASS'/>
-                    <ReactTooltip /><img src={BootstrapIcon} alt='Bootstrap Icon' className='skillIcon' data-tip='Bootstrap 4'/>
-                    <ReactTooltip /><img src={ReactIcon} alt='React.js Icon' className='skillIcon' data-tip='React.js'/>
-                    <ReactTooltip /><img src={ExpressIcon} alt='Express.js Icon' className='skillIcon' data-tip='Express.js'/>
-                    <ReactTooltip /><img src={NodeIcon} alt='Node.js Icon' className='skillIcon' data-tip='Node.js'/>
-                    <ReactTooltip /><img src={MongoDbIcon} alt='MongoDB Icon' className='skillIcon' data-tip='MongoDB'/>
+                    <ReactTooltip /><img src={HtmlIcon} alt='HTML' className='skillIcon' data-tip='HTML 5'/>
+                    <ReactTooltip /><img src={CssIcon} alt='CSS' className='skillIcon' data-tip='CSS 3'/>
+                    <ReactTooltip /><img src={JavaScriptIcon} alt='JavaScript' className='skillIcon' data-tip='JavaScript'/>
+                    <ReactTooltip /><img src={jQueryIcon} alt='jQuery' className='skillIcon' data-tip='jQuery'/>
+                    <ReactTooltip /><img src={SassIcon} alt='SASS' className='skillIcon' data-tip='SASS'/>
+                    <ReactTooltip /><img src={BootstrapIcon} alt='Bootstrap' className='skillIcon' data-tip='Bootstrap 4'/>
+                    <ReactTooltip /><img src={ReactIcon} alt='React.js' className='skillIcon' data-tip='React.js'/>
+                    <ReactTooltip /><img src={ExpressIcon} alt='Express.js' className='skillIcon' data-tip='Express.js'/>
+                    <ReactTooltip /><img src={NodeIcon} alt='Node.js' className='skillIcon' data-tip='Node.js'/>
+                    <ReactTooltip /><img src={MongoDbIcon} alt='MongoDB' className='skillIcon' data-tip='MongoDB'/>
                 </div>
             </Roll>
         </div>
