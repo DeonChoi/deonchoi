@@ -77,7 +77,7 @@ const Work = () => {
                 </div>
 
                 <div className='techstackRow'>
-                <span className='badge badge-dark techstack'>React.js</span>
+                    <span className='badge badge-dark techstack'>React.js</span>
                     <span className='badge badge-dark techstack'>Bootstrap</span>
                     <span className='badge badge-dark techstack'>CSS</span>
                 </div>
