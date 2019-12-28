@@ -30,10 +30,10 @@ const About = () => {
                     <Fade left>
                     <p className='text-justify font-weight-bold aboutDescription'>
                         Hi, my name is Deon Choi. 
-                        I graduated from <a className='' href='https://www.gwu.edu/' target='_blank' rel="noopener noreferrer">The George Washington University</a> in May 2019 with a Bachelor of Science in Statistics & a Minor in Computer Science. 
+                        I graduated from <a className='aboutLink' href='https://www.gwu.edu/' target='_blank' rel="noopener noreferrer">The George Washington University</a> in May 2019 with a Bachelor of Science in Statistics & a Minor in Computer Science. 
                         Shortly after graduation, I decided to dive into the world of web development.
                         <br></br>
-                        I enjoy creating minimalistic, responsive applications utilizing the <a className='' href='https://www.educative.io/edpresso/what-is-mern-stack' target='_blank' rel="noopener noreferrer">MERN</a> stack.
+                        I enjoy creating minimalistic, responsive applications utilizing the <a className='aboutLink' href='https://www.educative.io/edpresso/what-is-mern-stack' target='_blank' rel="noopener noreferrer">MERN</a> stack.
                         I still have an enormous amount to learn, but I'm incredibly excited to continue down this path into becoming an excellent developer.
                         <br></br>
                         Aside from web development, I enjoy fitness, food, and watching/playing sports. I'm a Lakers, Rams/Chargers, Juventus, and die-hard Dodgers fan.

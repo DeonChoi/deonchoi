@@ -3,7 +3,9 @@
     color: white;
     margin: -5% 20%;
 }    
-
+.aboutLink {
+    color: #ffcb00;
+}
 .skillIconRow {
     width: 100%;
 }
