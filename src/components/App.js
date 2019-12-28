@@ -12,7 +12,6 @@ import GithubIcon from '../images/footer/github.png';
 import LinkedInIcon from '../images/footer/linkedin.png';
 import EmailIcon from '../images/footer/email.png';
 import ResumeIcon from '../images/footer/resume.png';
-// import DeonChoiResume from '../images/footer/DeonChoiResume.png';
 import MenuIcon from '../images/footer/menu.png';
 import ResumePDF from '../images/footer/DeonChoiResume.pdf';
 
