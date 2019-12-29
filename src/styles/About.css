@@ -17,6 +17,11 @@
 .aboutDescription {
     font-family: 'Lexend Deca', sans-serif!important;
 }
+br {
+    display: block;
+    content: '';
+    margin: 0.75rem 0;
+}
 
     @media only screen and (max-width: 400px) {
     .aboutContainer {

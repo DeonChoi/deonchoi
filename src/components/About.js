@@ -28,7 +28,7 @@ const About = () => {
                     <h1 className='display-4 text-center'>About Me</h1>
                     </Roll>
                     <Fade left>
-                    <p className='text-justify font-weight-bold aboutDescription text-monospace '>
+                    <p className='font-weight-bold aboutDescription text-monospace '>
                         Hi, my name is Deon Choi. 
                         I graduated from <a className='aboutLink' href='https://www.gwu.edu/' target='_blank' rel="noopener noreferrer">The George Washington University</a> in May 2019 with a Bachelor of Science in Statistics & a Minor in Computer Science. 
                         Shortly after graduation, I decided to dive into the world of web development.
