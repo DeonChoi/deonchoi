@@ -12,11 +12,11 @@ import Zoom from 'react-reveal/Zoom';
 const Work = () => {
     
     return (
-        <div className='d-flex flex-wrap align-items-center align-content-center justify-content-center text-center text-monospace text-white workContainer'>
+        <main className='d-flex flex-wrap align-items-center align-content-center justify-content-center text-center text-monospace text-white workContainer'>
            <Zoom>
-            <div className='projectCard'>
+            <figure className='projectCard'>
                 
-                <div className='projectInfo'>
+                <main className='projectInfo'>
                     <a target='_blank' href='https://shrinkurlapp.herokuapp.com/api/' rel='noopener noreferrer' className=''>
                         <img src={ShrinkifyIcon} alt='Shrinkify Project' className='projectImage'/>
                     </a>
@@ -25,24 +25,24 @@ const Work = () => {
                         <a target='_blank' href='https://github.com/DeonChoi/shrinkURL' rel='noopener noreferrer' className=''>
                             <img src={GitHubIon} alt='Github Repository for Shrinkify project' className='githubIcon'/>
                         </a>
-                        <span className='projectTitle'>Shrinkify</span>
+                        <figcaption className='projectTitle'>Shrinkify</figcaption>
                     </div>
 
-                </div>
+                </main>
 
-                <div className='techstackRow'>
+                <section className='techstackRow'>
                     <span className='badge badge-dark techstack'>Node.js</span>
                     <span className='badge badge-dark techstack'>Express.js</span>
                     <span className='badge badge-dark techstack'>React.js</span>
                     <span className='badge badge-dark techstack'>MongoDB</span>
                     <span className='badge badge-dark techstack'>Bootstrap</span>
-                </div>
+                </section>
 
-            </div>
+            </figure>
 
-            <div className='projectCard'>
+            <figure className='projectCard'>
 
-                <div className='projectInfo'>
+                <main className='projectInfo'>
                     <a target='_blank' href='https://deonchoi.github.io/flix-app/' rel='noopener noreferrer' className=''>
                         <img src={FlixIcon} alt='Flix Project' className='projectImage'/>
                     </a>
@@ -50,21 +50,21 @@ const Work = () => {
                         <a target='_blank' href='https://github.com/DeonChoi/flix-app' rel='noopener noreferrer' className=''>
                             <img src={GitHubIon} alt='Github Repository for Flix project' className='githubIcon'/>
                         </a>
-                        <span className='projectTitle'>Flix</span>
+                        <figcaption className='projectTitle'>Flix</figcaption>
                     </div>
-                </div>
+                </main>
 
-                <div className='techstackRow'>
+                <section className='techstackRow'>
                     <span className='badge badge-dark techstack'>React.js</span>
                     <span className='badge badge-dark techstack'>Bootstrap</span>
                     <span className='badge badge-dark techstack'>CSS</span>
-                </div>
+                </section>
                 
-            </div>
+            </figure>
 
-            <div className='projectCard'>
+            <figure className='projectCard'>
 
-                <div className='projectInfo'>
+                <main className='projectInfo'>
                     <a target='_blank' href='https://deonchoi.github.io/recipe-app/' rel='noopener noreferrer' className=''>
                         <img src={DelishIcon} alt='Delish Project' className='projectImage'/>
                     </a>
@@ -72,20 +72,20 @@ const Work = () => {
                         <a target='_blank' href='https://github.com/DeonChoi/recipe-app' rel='noopener noreferrer' className=''>
                             <img src={GitHubIon} alt='Github Repository for Delish project' className='githubIcon'/>
                         </a>
-                        <span className='projectTitle'>Delish</span>
+                        <figcaption className='projectTitle'>Delish</figcaption>
                     </div>
-                </div>
+                </main>
 
-                <div className='techstackRow'>
+                <section className='techstackRow'>
                     <span className='badge badge-dark techstack'>React.js</span>
                     <span className='badge badge-dark techstack'>Bootstrap</span>
                     <span className='badge badge-dark techstack'>CSS</span>
-                </div>
+                </section>
                 
-            </div>
+            </figure>
 
-            <div className='projectCard'>
-                <div className='projectInfo'>
+            <figure className='projectCard'>
+                <main className='projectInfo'>
                     <a target='_blank' href='https://deonchoi.github.io/OOPgameShowApp/' rel='noopener noreferrer' className=''>
                         <img src={PhraseHunterIcon} alt='Phrase Hunter Project' className='projectImage'/>
                     </a>
@@ -93,19 +93,19 @@ const Work = () => {
                         <a target='_blank' href='https://github.com/DeonChoi/OOPgameShowApp' rel='noopener noreferrer' className=''>
                             <img src={GitHubIon} alt='Github Repository for Phrase Hunter project' className='githubIcon'/>
                         </a>
-                        <span className='projectTitle'>Phrase Hunter</span>
+                        <figcaption className='projectTitle'>Phrase Hunter</figcaption>
                     </div>
-                </div>    
+                </main>    
                 
-                <div className='techstackRow'>
+                <section className='techstackRow'>
                     <span className='badge badge-dark techstack'>HTML</span>
                     <span className='badge badge-dark techstack'>CSS</span>
                     <span className='badge badge-dark techstack'>jQuery</span>
-                </div>
+                </section>
                 
-            </div>
+            </figure>
             </Zoom>
-        </div>
+        </main>
     );
     
 };

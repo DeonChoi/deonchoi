@@ -39,11 +39,11 @@ const App = () => {
           </Zoom>
         </header>
 
-      <div id='mySidenav' className='sidenav' style={ isOpen ? openNavStyle : closeNavStyle }>
+      <nav id='mySidenav' className='sidenav' style={ isOpen ? openNavStyle : closeNavStyle }>
         <Link to={'/'} onClick={toggleNav}>Home</Link>
         <Link to={'/about'} onClick={toggleNav}>About</Link>
         <Link to={'/work'} onClick={toggleNav}>Work</Link>
-      </div>
+      </nav>
 
       <main>
         <Route exact path='/' component={Home} />

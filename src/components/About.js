@@ -20,10 +20,10 @@ import '../styles/About.css';
 const About = () => {
   
     return (            
-        <div className='d-flex flex-column text-monospace text-white align-items-center justify-content-center aboutContainer'>
+        <main className='d-flex flex-column text-monospace text-white align-items-center justify-content-center aboutContainer'>
             
             
-                <div>
+                <section>
                     <Roll top big cascade>
                     <h1 className='display-4 text-center'>About Me</h1>
                     </Roll>
@@ -39,10 +39,10 @@ const About = () => {
                         Aside from web development, I enjoy fitness, food, and watching/playing sports. I'm a Lakers, Rams/Chargers, Juventus, and die-hard Dodgers fan.
                     </p>
                     </Fade>
-                </div>
+                </section>
             
             <Roll bottom big cascade>
-                <div className='d-flex flex-wrap justify-content-between skillIconRow'>
+                <section className='d-flex flex-wrap justify-content-between skillIconRow'>
                     <ReactTooltip /><img src={HtmlIcon} alt='HTML' className='skillIcon' data-tip='HTML 5'/>
                     <ReactTooltip /><img src={CssIcon} alt='CSS' className='skillIcon' data-tip='CSS 3'/>
                     <ReactTooltip /><img src={JavaScriptIcon} alt='JavaScript' className='skillIcon' data-tip='JavaScript'/>
@@ -53,9 +53,9 @@ const About = () => {
                     <ReactTooltip /><img src={ExpressIcon} alt='Express.js' className='skillIcon' data-tip='Express.js'/>
                     <ReactTooltip /><img src={NodeIcon} alt='Node.js' className='skillIcon' data-tip='Node.js'/>
                     <ReactTooltip /><img src={MongoDbIcon} alt='MongoDB' className='skillIcon' data-tip='MongoDB'/>
-                </div>
+                </section>
             </Roll>
-        </div>
+        </main>
     );
     
 };

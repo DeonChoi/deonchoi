@@ -6,7 +6,7 @@ import Zoom from 'react-reveal/Zoom';
 const Home = () => {
     
     return (
-        <div className='d-flex flex-column text-monospace align-items-center justify-content-center homeContainer'>
+        <main className='d-flex flex-column text-monospace align-items-center justify-content-center homeContainer'>
         <Zoom>
             <Scramble autoStart text='Deon Choi' className='display-2 homeName'
                 steps={[
@@ -48,7 +48,7 @@ const Home = () => {
                 ]}
             />
             </Zoom>
-        </div>
+        </main>
     );
     
 };

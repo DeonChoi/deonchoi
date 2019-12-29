@@ -279,7 +279,31 @@
     }
   }
   
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 992px) and (orientation: portrait){
+    .workContainer {
+        margin: -5% 0;
+    }
+    .projectTitle {
+        font-size: 1.4rem;
+        margin: 0.2rem 0rem;
+    }
+    .projectCard {
+        height: 22rem;
+        width: 45%;
+        margin: 1rem 0.25rem;
+    } 
+    .techstack {
+        font-size: 1rem;
+    }
+    .projectImage {
+        width: 85%;
+    }
+    .techstackRow {
+        display: inline;
+    }
+  }
+
+  @media only screen and (min-width: 992px) and (orientation: landscape) {
     .workContainer {
         margin: -5% 0;
     }
