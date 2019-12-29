@@ -14,6 +14,9 @@
     height: 3.5rem;
     margin: 0.25rem;
 }
+.aboutDescription {
+    font-family: 'Lexend Deca', sans-serif!important;
+}
 
     @media only screen and (max-width: 400px) {
     .aboutContainer {
@@ -126,21 +129,42 @@
     }
   }
 
+  @media only screen and (min-width: 1440px) {
+    .aboutContainer {
+        margin: 0% 20%;
+    }  
+    .aboutDescription {
+        font-size: 1.25rem;
+    }
+  }
+
   @media only screen and (min-width: 2000px) {
     .aboutContainer {
-        margin: 0% 35%;
+        margin: 0% 30%;
     }    
     
     .skillIconRow {
         width: 100%;
     }
     .skillIcon {
-        width: 3.2rem;
-        height: 3.2rem;
+        width: 3.3rem;
+        height: 3.3rem;
         margin: 0.15rem;
     }
     .aboutDescription {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
   }
-  
+  @media only screen and (min-width: 2560px) {
+    .aboutContainer {
+        margin: 0% 35%;
+    }   
+    .aboutDescription {
+        font-size: 1.35rem;
+    }
+    .skillIcon {
+        width: 3.5rem;
+        height: 3.5rem;
+        margin: 0.2rem;
+    }
+  }

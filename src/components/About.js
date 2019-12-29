@@ -20,15 +20,15 @@ import '../styles/About.css';
 const About = () => {
   
     return (            
-        <div className='d-flex flex-column text-center text-monospace text-white align-items-center justify-content-center aboutContainer'>
+        <div className='d-flex flex-column text-monospace text-white align-items-center justify-content-center aboutContainer'>
             
             
                 <div>
                     <Roll top big cascade>
-                    <h1 className='display-4'>About Me</h1>
+                    <h1 className='display-4 text-center'>About Me</h1>
                     </Roll>
                     <Fade left>
-                    <p className='text-justify font-weight-bold aboutDescription'>
+                    <p className='text-justify font-weight-bold aboutDescription text-monospace '>
                         Hi, my name is Deon Choi. 
                         I graduated from <a className='aboutLink' href='https://www.gwu.edu/' target='_blank' rel="noopener noreferrer">The George Washington University</a> in May 2019 with a Bachelor of Science in Statistics & a Minor in Computer Science. 
                         Shortly after graduation, I decided to dive into the world of web development.
