@@ -16,6 +16,7 @@
 }
 .aboutDescription {
     font-family: 'Lexend Deca', sans-serif!important;
+    /* max-width: 800px; */
 }
 br {
     display: block;
@@ -31,9 +32,9 @@ br {
         font-size: 1.25rem;
     }
     .skillIcon {
-        width: 3rem;
-        height: 3rem;
-        margin: 0.125rem;
+        width: 2.7rem;
+        height: 2.7rem;
+        margin: 0.1rem;
     }
   }
 
