@@ -35,7 +35,9 @@ const App = () => {
     <Router basename={'/#'}>
         <header className='fixed-top'>
           <Zoom bottom cascade>
-            <img onClick={toggleNav} src={MenuIcon} alt='Menu Navigation' className='menuIcon float-right'/>
+            <button className='float-right btn menuButton' onClick={toggleNav} >
+              <img src={MenuIcon} alt='Menu Navigation' className='menuIcon'/>
+            </button>
           </Zoom>
         </header>
 
