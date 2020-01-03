@@ -36,6 +36,8 @@ const Work = () => {
                     <span className='badge badge-dark techstack'>React.js</span>
                     <span className='badge badge-dark techstack'>MongoDB</span>
                     <span className='badge badge-dark techstack'>Bootstrap</span>
+                    <span className='badge badge-dark techstack'>JWT</span>
+
                 </section>
 
             </figure>
