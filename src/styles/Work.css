@@ -372,13 +372,16 @@
   }
   
   @media only screen and (min-width: 1700px) {
+    .workContainer {
+        margin: -3% 10%;
+    }    
     .projectCard {
         width: 34%;
-        height: 25rem;
-        margin: 3rem;
+        height: 23rem;
+        margin: 1.5rem;
     }
     .projectImage {
-        width: 100%;
+        width: 85%;
     }
     .projectTitle {
         font-size: 2.5rem;
