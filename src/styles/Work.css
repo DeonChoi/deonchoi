@@ -352,7 +352,7 @@
 
   @media only screen and (min-width: 1440px) {
     .workContainer {
-        margin: -3% 5%;
+        margin: -3% 10%;
     }    
     .projectCard {
         width: 34%;
@@ -394,7 +394,7 @@
 
   @media only screen and (min-width: 2000px) {
     .workContainer {
-        margin: -2% 0%;
+        margin: -2% 5%;
     }    
     .projectCard {
         width: 20%;
