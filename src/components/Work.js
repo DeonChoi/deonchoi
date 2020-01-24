@@ -18,6 +18,31 @@ const Work = () => {
            <figure className='projectCard'>
 
                 <main className='projectInfo'>
+                    <a target='_blank' href='https://flix-movies-app.herokuapp.com/' rel='noopener noreferrer' className=''>
+                        <img src={FlixIcon} alt='Flix Project' className='projectImage'/>
+                    </a>
+                    <div className='align-items-center justify-content-center d-flex'>
+                        <a target='_blank' href='https://github.com/DeonChoi/flix-app' rel='noopener noreferrer' className=''>
+                            <img src={GitHubIon} alt='Github Repository for Flix project' className='githubIcon'/>
+                        </a>
+                        <figcaption className='projectTitle'>Flix</figcaption>
+                    </div>
+                </main>
+
+                <section className='techstackRow'>
+                    <span className='badge badge-dark techstack'>Node.js</span>
+                    <span className='badge badge-dark techstack'>Express.js</span>
+                    <span className='badge badge-dark techstack'>React.js</span>
+                    <span className='badge badge-dark techstack'>MySQL</span>
+                    <span className='badge badge-dark techstack'>Bootstrap</span>
+                    <span className='badge badge-dark techstack'>JWT</span>
+                </section>
+
+            </figure>
+
+           <figure className='projectCard'>
+
+                <main className='projectInfo'>
                     <a target='_blank' href='https://snapunsplash.herokuapp.com/' rel='noopener noreferrer' className=''>
                         <img src={SnapIcon} alt='Snap Project' className='projectImage'/>
                     </a>
@@ -66,31 +91,6 @@ const Work = () => {
 
                 </section>
 
-            </figure>
-
-            <figure className='projectCard'>
-
-                <main className='projectInfo'>
-                    <a target='_blank' href='https://flix-movies-app.herokuapp.com/' rel='noopener noreferrer' className=''>
-                        <img src={FlixIcon} alt='Flix Project' className='projectImage'/>
-                    </a>
-                    <div className='align-items-center justify-content-center d-flex'>
-                        <a target='_blank' href='https://github.com/DeonChoi/flix-app' rel='noopener noreferrer' className=''>
-                            <img src={GitHubIon} alt='Github Repository for Flix project' className='githubIcon'/>
-                        </a>
-                        <figcaption className='projectTitle'>Flix</figcaption>
-                    </div>
-                </main>
-
-                <section className='techstackRow'>
-                    <span className='badge badge-dark techstack'>Node.js</span>
-                    <span className='badge badge-dark techstack'>Express.js</span>
-                    <span className='badge badge-dark techstack'>React.js</span>
-                    <span className='badge badge-dark techstack'>MySQL</span>
-                    <span className='badge badge-dark techstack'>Bootstrap</span>
-                    <span className='badge badge-dark techstack'>JWT</span>
-                </section>
-                
             </figure>
 
             <figure className='projectCard'>
