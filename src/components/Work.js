@@ -71,7 +71,7 @@ const Work = () => {
             <figure className='projectCard'>
 
                 <main className='projectInfo'>
-                    <a target='_blank' href='https://deonchoi.github.io/flix-app/' rel='noopener noreferrer' className=''>
+                    <a target='_blank' href='https://flix-movies-app.herokuapp.com/' rel='noopener noreferrer' className=''>
                         <img src={FlixIcon} alt='Flix Project' className='projectImage'/>
                     </a>
                     <div className='align-items-center justify-content-center d-flex'>
@@ -83,9 +83,12 @@ const Work = () => {
                 </main>
 
                 <section className='techstackRow'>
+                    <span className='badge badge-dark techstack'>Node.js</span>
+                    <span className='badge badge-dark techstack'>Express.js</span>
                     <span className='badge badge-dark techstack'>React.js</span>
+                    <span className='badge badge-dark techstack'>MySQL</span>
                     <span className='badge badge-dark techstack'>Bootstrap</span>
-                    <span className='badge badge-dark techstack'>CSS</span>
+                    <span className='badge badge-dark techstack'>JWT</span>
                 </section>
                 
             </figure>
