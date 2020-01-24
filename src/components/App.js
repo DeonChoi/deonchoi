@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
 import Zoom from 'react-reveal/Zoom';
+import ReactTooltip from 'react-tooltip';
 
 import '../styles/App.css';
 
@@ -55,23 +56,27 @@ const App = () => {
 
       <footer className='text-center fixed-bottom font-weight-light text-monospace footer'>
         <div className=''>
+          <ReactTooltip />
           <Zoom right cascade>
-            <a href='mailto:deon.choi@gmail.com' className='contactButton'>
+            <a href='mailto:deon.choi@gmail.com' className='contactButton' data-tip='Email'>
               <img src={EmailIcon} alt='Email Link for Deon Choi' className='contactImage'/>
             </a>
           </Zoom>
+          <ReactTooltip />
           <Zoom top cascade>
-            <a href='https://github.com/deonchoi' target='_blank' rel='noopener noreferrer' className='contactButton'>
+            <a href='https://github.com/deonchoi' target='_blank' rel='noopener noreferrer' className='contactButton' data-tip='GitHub'>
               <img src={GithubIcon} alt='GitHub page for Deon Choi' className='contactImage'/>
             </a>
           </Zoom>
+          <ReactTooltip />
           <Zoom right cascade>
-            <a href='https://www.linkedin.com/in/deon-choi-b3019b128/' target='_blank' rel='noopener noreferrer' className='contactButton'>
+            <a href='https://www.linkedin.com/in/deon-choi-b3019b128/' target='_blank' rel='noopener noreferrer' className='contactButton' data-tip='LinkedIn'>
               <img src={LinkedInIcon} alt='LinkedIn page for Deon Choi' className='contactImage'/>
             </a>
           </Zoom>
+          <ReactTooltip />
           <Zoom top cascade>
-            <a href={ResumePDF} target='_blank' rel='noopener noreferrer' className='contactButton'>
+            <a href={ResumePDF} target='_blank' rel='noopener noreferrer' className='contactButton' data-tip='Resume'>
               <img src={ResumeIcon} alt='Resume for Deon Choi' className='contactImage'/>
             </a>
           </Zoom>
