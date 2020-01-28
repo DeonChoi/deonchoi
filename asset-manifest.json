@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5bef027a.chunk.css",
-    "main.js": "/static/js/main.db2a0b79.chunk.js",
-    "main.js.map": "/static/js/main.db2a0b79.chunk.js.map",
+    "main.css": "/static/css/main.a2f16480.chunk.css",
+    "main.js": "/static/js/main.d13eefee.chunk.js",
+    "main.js.map": "/static/js/main.d13eefee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ca31ce51.js",
     "runtime-main.js.map": "/static/js/runtime-main.ca31ce51.js.map",
-    "static/js/2.baaee2fd.chunk.js": "/static/js/2.baaee2fd.chunk.js",
-    "static/js/2.baaee2fd.chunk.js.map": "/static/js/2.baaee2fd.chunk.js.map",
+    "static/js/2.875e93ad.chunk.js": "/static/js/2.875e93ad.chunk.js",
+    "static/js/2.875e93ad.chunk.js.map": "/static/js/2.875e93ad.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a4cd14392e44606a7fc7fbf1ed04e5c9.js": "/precache-manifest.a4cd14392e44606a7fc7fbf1ed04e5c9.js",
+    "precache-manifest.756ce1ccf233d5e0ebbf30b9d1f05fa0.js": "/precache-manifest.756ce1ccf233d5e0ebbf30b9d1f05fa0.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5bef027a.chunk.css.map": "/static/css/main.5bef027a.chunk.css.map",
-    "static/js/2.baaee2fd.chunk.js.LICENSE": "/static/js/2.baaee2fd.chunk.js.LICENSE",
-    "static/media/DeonChoiResume.pdf": "/static/media/DeonChoiResume.1ea9f814.pdf",
+    "static/css/main.a2f16480.chunk.css.map": "/static/css/main.a2f16480.chunk.css.map",
+    "static/js/2.875e93ad.chunk.js.LICENSE": "/static/js/2.875e93ad.chunk.js.LICENSE",
+    "static/media/DeonChoiResume.pdf": "/static/media/DeonChoiResume.7408bbbd.pdf",
     "static/media/Flix.png": "/static/media/Flix.08595f3a.png",
     "static/media/PhraseHunter.png": "/static/media/PhraseHunter.5b5968d2.png",
     "static/media/Shrinkify.png": "/static/media/Shrinkify.2380b263.png",
@@ -25,14 +25,16 @@
     "static/media/javascript.png": "/static/media/javascript.7c6d1e4b.png",
     "static/media/jquery.png": "/static/media/jquery.2927cd13.png",
     "static/media/mongoDB-1.png": "/static/media/mongoDB-1.55290ed9.png",
+    "static/media/mysql.png": "/static/media/mysql.005cef85.png",
     "static/media/nodeJS.png": "/static/media/nodeJS.313acec2.png",
+    "static/media/python.png": "/static/media/python.067050f6.png",
     "static/media/react.png": "/static/media/react.e430cafa.png",
     "static/media/sass.png": "/static/media/sass.5abec728.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ca31ce51.js",
-    "static/js/2.baaee2fd.chunk.js",
-    "static/css/main.5bef027a.chunk.css",
-    "static/js/main.db2a0b79.chunk.js"
+    "static/js/2.875e93ad.chunk.js",
+    "static/css/main.a2f16480.chunk.css",
+    "static/js/main.d13eefee.chunk.js"
   ]
 }
