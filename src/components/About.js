@@ -4,6 +4,7 @@ import ReactTooltip from 'react-tooltip';
 import Fade from 'react-reveal/Fade';
 import Roll from 'react-reveal/Roll';
 
+import PythonIcon from '../images/about/python.png';
 import HtmlIcon from '../images/about/html.png';
 import CssIcon from '../images/about/css.png';
 import JavaScriptIcon from '../images/about/javascript.png';
@@ -14,6 +15,7 @@ import ReactIcon from '../images/about/react.png';
 import ExpressIcon from '../images/about/expressJS.png';
 import NodeIcon from '../images/about/nodeJS.png';
 import MongoDbIcon from '../images/about/mongoDB-1.png';
+import MySQLIcon from '../images/about/mysql.png';
 
 import '../styles/About.css';
 
@@ -42,6 +44,7 @@ const About = () => {
             
             <Roll bottom big cascade>
                 <section className='d-flex flex-wrap justify-content-between skillIconRow'>
+                    <ReactTooltip /><img src={PythonIcon} alt='Python' className='skillIcon' data-tip='Python'/>
                     <ReactTooltip /><img src={HtmlIcon} alt='HTML' className='skillIcon' data-tip='HTML 5'/>
                     <ReactTooltip /><img src={CssIcon} alt='CSS' className='skillIcon' data-tip='CSS 3'/>
                     <ReactTooltip /><img src={JavaScriptIcon} alt='JavaScript' className='skillIcon' data-tip='JavaScript'/>
@@ -52,6 +55,7 @@ const About = () => {
                     <ReactTooltip /><img src={ExpressIcon} alt='Express.js' className='skillIcon' data-tip='Express.js'/>
                     <ReactTooltip /><img src={NodeIcon} alt='Node.js' className='skillIcon' data-tip='Node.js'/>
                     <ReactTooltip /><img src={MongoDbIcon} alt='MongoDB' className='skillIcon' data-tip='MongoDB'/>
+                    <ReactTooltip /><img src={MySQLIcon} alt='MySQL' className='skillIcon' data-tip='MySQL'/>
                 </section>
             </Roll>
         </main>

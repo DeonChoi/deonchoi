@@ -45,6 +45,11 @@ br {
     .aboutDescription {
         font-size: 1.5rem;
     }
+    .skillIcon {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 0.1rem;
+    }
   }
   @media only screen and (min-width: 400px) and (orientation:landscape){
     .aboutContainer {
@@ -77,9 +82,9 @@ br {
         margin: -6% 10%;
     }    
     .skillIcon {
-        width: 3.25rem;
-        height: 3.25rem;
-        margin: 0.25rem;
+        width: 2.9rem;
+        height: 2.9rem;
+        margin: 0.15rem;
     }
     .aboutDescription {
         font-size: 1rem;
@@ -137,11 +142,12 @@ br {
 
   @media only screen and (min-width: 1440px) {
     .aboutContainer {
-        margin: 0% 25%;
+        margin: 0% 20%;
     }  
     .aboutDescription {
         font-size: 1.25rem;
     }
+    
   }
 
   @media only screen and (min-width: 2000px) {
