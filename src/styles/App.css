@@ -21,7 +21,7 @@ body {
 }
 
 .sidenav a {
-  padding: 0.5rem 0.5rem 0.5rem 2rem;
+  padding: 1.5rem 0.5rem 0.5rem 2rem;
   text-decoration: none;
   font-size: 2rem;
   color: #ffffff;
@@ -61,14 +61,13 @@ main {
   margin: 1rem 2rem;
 
   opacity: 1;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
+  transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
 }
-.menuIcon:hover{
+.menuIcon:hover {
   opacity:0.5!important;
 }
-
 
 .contactButton{
   margin: 1.625rem;
