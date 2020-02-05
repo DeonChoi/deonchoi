@@ -27,7 +27,7 @@ const About = () => {
             
                 <section>
                     <Roll top big cascade>
-                    <h1 className='display-4 text-center'>About Me</h1>
+                    <h1 className='display-4 text-center aboutHeader'>About Me</h1>
                     </Roll>
                     <Fade left>
                     <p className='font-weight-bold aboutDescription text-monospace'>

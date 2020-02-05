@@ -24,39 +24,70 @@ br {
     margin: 0.75rem 0;
 }
 
-    @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 350px) {
     .aboutContainer {
-        margin: -10% 5%;
+        margin: -10% 0;
     }  
+    .aboutHeader {
+        font-size: 
+    }
     .aboutDescription {
-        font-size: 1.25rem;
+        font-size: 1.6rem;
     }
     .skillIcon {
-        width: 2.7rem;
-        height: 2.7rem;
-        margin: 0.1rem;
+        width: 3.5rem;
+        height: 3.5rem;
+        margin: 1rem;
+    }
+}
+
+    @media only screen and (min-width: 350px) {
+    .aboutContainer {
+        margin: -10% 0;
+    }  
+    .aboutHeader {
+        font-size: 5rem;
+    }
+    .aboutDescription {
+        font-size: 1.75rem;
+    }
+    .skillIcon {
+        width: 5rem;
+        height: 5rem;
+        margin: 1rem 0.5rem;
     }
   }
 
   @media only screen and (min-width: 400px) and (orientation:portrait) {
     .aboutContainer {
-        margin: 0 5%;
+        margin: 0 2%;
     }  
+    .aboutHeader {
+        font-size: 5rem;
+    }
     .aboutDescription {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     .skillIcon {
-        width: 2.5rem;
-        height: 2.5rem;
-        margin: 0.1rem;
+        width: 5rem;
+        height: 5rem;
+        margin: 1rem;
     }
   }
   @media only screen and (min-width: 400px) and (orientation:landscape){
     .aboutContainer {
-        margin: -3% 5%;
+        margin: -3% 2%;
     }  
+    .aboutHeader {
+        font-size: 4rem;
+    }
     .aboutDescription {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
+    }
+    .skillIcon {
+        width: 3.75rem;
+        height: 3.75rem;
+        margin: 0.5rem;
     }
   }
   
@@ -70,10 +101,15 @@ br {
   }
   @media only screen and (min-width: 600px) and (orientation:landscape)  {
     .aboutContainer {
-        margin: -5% 5%;
+        margin: -5% 0%;
     }  
     .aboutDescription {
-        font-size: 1.25rem;
+        font-size: 1.4rem;
+    }
+    .skillIcon {
+        width: 4rem;
+        height: 4rem;
+        margin: 1rem 0.25rem;
     }
   }
   
@@ -92,15 +128,18 @@ br {
   }
   @media only screen and (min-width: 768px) and (orientation:landscape){
     .aboutContainer {
-        margin: -5% 10%;
+        margin: -5% 2%;
     }    
     .skillIcon {
-        width: 2.75rem;
-        height: 2.75rem;
+        width: 2.7rem;
+        height: 2.7rem;
         margin: 0.1rem;
     }
+    .aboutHeader {
+        font-size: 3.75rem;
+    }
     .aboutDescription {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
     }
   }
   
