@@ -25,7 +25,7 @@ const App = () => {
     isOpen ? setIsOpen(false) : setIsOpen(true);
   }
   const openNavStyle = {
-    width: '18rem'
+    width: '20rem'
   };
   const closeNavStyle = {
     width: '0rem'
