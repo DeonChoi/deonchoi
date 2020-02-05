@@ -26,7 +26,7 @@ br {
 
 @media only screen and (max-width: 350px) {
     .aboutContainer {
-        margin: -10% 0;
+        margin: -15% 0;
     }  
     .aboutHeader {
         font-size: 
@@ -43,7 +43,7 @@ br {
 
     @media only screen and (min-width: 350px) {
     .aboutContainer {
-        margin: -10% 0;
+        margin: -15% 0;
     }  
     .aboutHeader {
         font-size: 5rem;
@@ -60,7 +60,7 @@ br {
 
   @media only screen and (min-width: 400px) and (orientation:portrait) {
     .aboutContainer {
-        margin: 0 2%;
+        margin: -10% 2%;
     }  
     .aboutHeader {
         font-size: 5rem;
@@ -131,15 +131,15 @@ br {
         margin: -5% 2%;
     }    
     .skillIcon {
-        width: 2.7rem;
-        height: 2.7rem;
+        width: 2.6rem;
+        height: 2.6rem;
         margin: 0.1rem;
     }
     .aboutHeader {
-        font-size: 3.75rem;
+        font-size: 3rem;
     }
     .aboutDescription {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
   }
   
