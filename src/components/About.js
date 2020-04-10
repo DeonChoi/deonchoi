@@ -31,13 +31,15 @@ const About = () => {
                     </Roll>
                     <Fade left>
                     <p className='font-weight-bold aboutDescription text-monospace'>
-                        Hi, my name is Deon Choi. 
+                        Hi, my name is Deon Choi.
+                        I was born and raised in the <strong className='aboutStrong'>San Francisco Bay Area</strong> and am now working in <strong className='aboutStrong'>Washington D.C.</strong>
+                        <br></br>
                         I graduated from <a className='aboutStrong' href='https://www.gwu.edu/' target='_blank' rel="noopener noreferrer"><strong className='aboutStrong'>The George Washington University</strong></a> in May 2019 with a Bachelor of Science in <strong className='aboutStrong'>Statistics</strong> & a Minor in <strong className='aboutStrong'>Computer Science</strong>. 
                         <br></br>
                         I enjoy creating minimalistic, <strong className='aboutStrong'>responsive</strong>, and <strong className='aboutStrong'>mobile-first</strong> applications utilizing the <a className='aboutStrong' href='https://www.educative.io/edpresso/what-is-mern-stack' target='_blank' rel="noopener noreferrer"><strong className='aboutStrong'>MERN</strong></a> stack.
-                        I still have an enormous amount to learn, but I'm incredibly excited to continue down this path into becoming an excellent developer.
+                        {/* I still have an enormous amount to learn, but I'm incredibly excited to continue down this path into becoming an excellent developer. */}
                         <br></br>
-                        Aside from web development, I enjoy fitness, nutrition, music, and sports. I'm a Lakers, Rams/Chargers, Juventus, and die-hard Dodgers fan.
+                        Aside from web development, I enjoy fitness, nutrition, music, and sports. I'm a Lakers, Rams/Chargers, Juventus, and die-hard <strong className='aboutStrong'>Dodgers</strong> fan.
                     </p>
                     </Fade>
                 </section>

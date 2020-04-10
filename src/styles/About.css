@@ -4,7 +4,7 @@
     margin: -5% 20%;
 }    
 .aboutStrong {
-    color: #ffcb00;
+    color: rgb(55, 116, 231);
 }
 .skillIconRow {
     width: 100%;
@@ -21,7 +21,7 @@
 br {
     display: block;
     content: '';
-    margin: 0.75rem 0;
+    margin: 0.5rem 0;
 }
 
 @media only screen and (max-width: 350px) {
