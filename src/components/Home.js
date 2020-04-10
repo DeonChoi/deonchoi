@@ -41,7 +41,7 @@ const Home = () => {
             </h2>
             
             <h2>
-                <Scramble autoStart text='San Francisco Bay Area' className='display-4 homeDescription'
+                <Scramble autoStart text='District of Columbia' className='display-4 homeDescription'
                     steps={[
                     {
                     roll: 20,
