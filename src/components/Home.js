@@ -12,7 +12,7 @@ const Home = () => {
                 <Scramble autoStart text='Deon Choi' className='display-2 homeName'
                     steps={[
                     {
-                        roll: 25,
+                        roll: 23,
                         action: '+',
                         type: 'all',
                     },
@@ -28,7 +28,7 @@ const Home = () => {
                 <Scramble autoStart text='Full Stack Developer' className='display-4 homeDescription'
                     steps={[
                     {
-                        roll: 20,
+                        roll: 15,
                         action: '+',
                         type: 'all',
                     },
@@ -44,7 +44,7 @@ const Home = () => {
                 <Scramble autoStart text='District of Columbia' className='display-4 homeDescription'
                     steps={[
                     {
-                    roll: 20,
+                    roll: 15,
                         action: '+',
                         type: 'all',
                     },
