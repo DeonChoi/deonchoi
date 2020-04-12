@@ -13,7 +13,7 @@ import GithubIcon from '../images/footer/github.png';
 import LinkedInIcon from '../images/footer/linkedin.png';
 import EmailIcon from '../images/footer/email.png';
 import ResumeIcon from '../images/footer/resume.png';
-import MenuIcon from '../images/footer/menu.png';
+// import MenuIcon from '../images/footer/menu.png';
 import ResumePDF from '../images/footer/DeonChoiResume.pdf';
 
 
@@ -25,27 +25,44 @@ const App = () => {
     isOpen ? setIsOpen(false) : setIsOpen(true);
   }
   const openNavStyle = {
-    width: '20rem'
+    // width: '20rem',
+    width: '100%'
   };
   const closeNavStyle = {
     width: '0rem'
+  };
+
+  const closeMenu1 = {
+    WebkitTransform: 'rotate(-45deg) translate(-9px, 6px)',
+    transform: 'rotate(-45deg) translate(-9px, 6px)'
+  };
+  const closeMenu2 = {
+    opacity: '0'
+  };
+  const closeMenu3 = {
+    WebkitTransform: 'rotate(45deg) translate(-8px, -8px)',
+    transform: 'rotate(45deg) translate(-8px, -8px)' 
   };
 
   return (
 
     <Router basename={'/#'}>
         <header className='fixed-top'>
-          <Zoom bottom cascade>
+          {/* <Zoom bottom cascade> */}
             <button className='float-right btn menuButton' onClick={toggleNav} >
-              <img src={MenuIcon} alt='Menu Navigation' className='menuIcon'/>
+              {/* <img src={MenuIcon} alt='Menu Navigation' className='menuIcon'/> */}
+              <div className='openIcon' style={ isOpen ? closeMenu1 : null }></div>
+              <div className='openIcon' style={ isOpen ? closeMenu2 : null }></div>
+              <div className='openIcon' style={ isOpen ? closeMenu3 : null }></div>
             </button>
-          </Zoom>
+          {/* </Zoom> */}
         </header>
 
       <nav id='mySidenav' className='sidenav' style={ isOpen ? openNavStyle : closeNavStyle }>
         <Link to={'/'} onClick={toggleNav}>Home</Link>
         <Link to={'/about'} onClick={toggleNav}>About</Link>
         <Link to={'/work'} onClick={toggleNav}>Work</Link>
+        <Link to={''} onClick={toggleNav}>X</Link>
       </nav>
 
       <main>
