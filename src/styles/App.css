@@ -17,7 +17,7 @@ body {
   background-color: rgb(0, 0, 0); /* Black*/
   /* border-left: 1px solid black; */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 5rem; /* Place content 5rem from the top */
+  /* padding-top: 5rem; Place content 5rem from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   
   display: flex;
@@ -32,6 +32,8 @@ body {
   font-size: 2rem;
   color: #ffffff;
   display: block;
+  transition: 0.75s;
+
   opacity: 1;
 
   transition: opacity .75s ease-in-out, color 1s ease-in-out;

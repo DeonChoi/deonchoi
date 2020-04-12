@@ -24,7 +24,6 @@ const About = () => {
     return (            
         <main className='d-flex flex-column text-monospace text-white align-items-center justify-content-center aboutContainer'>
             
-            
                 <section>
                     <Roll top big cascade>
                     <h1 className='display-4 text-center aboutHeader'>About Me</h1>
@@ -46,18 +45,19 @@ const About = () => {
             
             <Roll bottom big cascade>
                 <section className='d-flex flex-wrap justify-content-between skillIconRow'>
-                    <ReactTooltip /><img src={PythonIcon} alt='Python' className='skillIcon' data-tip='Python'/>
-                    <ReactTooltip /><img src={HtmlIcon} alt='HTML' className='skillIcon' data-tip='HTML 5'/>
-                    <ReactTooltip /><img src={CssIcon} alt='CSS' className='skillIcon' data-tip='CSS 3'/>
-                    <ReactTooltip /><img src={JavaScriptIcon} alt='JavaScript' className='skillIcon' data-tip='JavaScript'/>
-                    <ReactTooltip /><img src={jQueryIcon} alt='jQuery' className='skillIcon' data-tip='jQuery'/>
-                    <ReactTooltip /><img src={SassIcon} alt='SASS' className='skillIcon' data-tip='SASS'/>
-                    <ReactTooltip /><img src={BootstrapIcon} alt='Bootstrap' className='skillIcon' data-tip='Bootstrap 4'/>
-                    <ReactTooltip /><img src={ReactIcon} alt='React.js' className='skillIcon' data-tip='React.js'/>
-                    <ReactTooltip /><img src={ExpressIcon} alt='Express.js' className='skillIcon' data-tip='Express.js'/>
-                    <ReactTooltip /><img src={NodeIcon} alt='Node.js' className='skillIcon' data-tip='Node.js'/>
-                    <ReactTooltip /><img src={MongoDbIcon} alt='MongoDB' className='skillIcon' data-tip='MongoDB'/>
-                    <ReactTooltip /><img src={MySQLIcon} alt='MySQL' className='skillIcon' data-tip='MySQL'/>
+                    <ReactTooltip />
+                    <img src={PythonIcon} alt='Python' className='skillIcon' data-tip='Python'/>
+                    <img src={HtmlIcon} alt='HTML' className='skillIcon' data-tip='HTML 5'/>
+                    <img src={CssIcon} alt='CSS' className='skillIcon' data-tip='CSS 3'/>
+                    <img src={JavaScriptIcon} alt='JavaScript' className='skillIcon' data-tip='JavaScript'/>
+                    <img src={jQueryIcon} alt='jQuery' className='skillIcon' data-tip='jQuery'/>
+                    <img src={SassIcon} alt='SASS' className='skillIcon' data-tip='SASS'/>
+                    <img src={BootstrapIcon} alt='Bootstrap' className='skillIcon' data-tip='Bootstrap 4'/>
+                    <img src={ReactIcon} alt='React.js' className='skillIcon' data-tip='React.js'/>
+                    <img src={ExpressIcon} alt='Express.js' className='skillIcon' data-tip='Express.js'/>
+                    <img src={NodeIcon} alt='Node.js' className='skillIcon' data-tip='Node.js'/>
+                    <img src={MongoDbIcon} alt='MongoDB' className='skillIcon' data-tip='MongoDB'/>
+                    <img src={MySQLIcon} alt='MySQL' className='skillIcon' data-tip='MySQL'/>
                 </section>
             </Roll>
         </main>

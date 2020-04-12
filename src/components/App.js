@@ -47,6 +47,8 @@ const App = () => {
   return (
 
     <Router basename={'/#'}>
+
+        <ReactTooltip />
         <header className='fixed-top'>
           {/* <Zoom bottom cascade> */}
             <button className='float-right btn menuButton' onClick={toggleNav} >
@@ -62,7 +64,7 @@ const App = () => {
         <Link to={'/'} onClick={toggleNav}>Home</Link>
         <Link to={'/about'} onClick={toggleNav}>About</Link>
         <Link to={'/work'} onClick={toggleNav}>Work</Link>
-        <Link to={''} onClick={toggleNav}>X</Link>
+        <Link onClick={toggleNav}>X</Link>
       </nav>
 
       <main>
@@ -73,25 +75,25 @@ const App = () => {
 
       <footer className='text-center fixed-bottom font-weight-light text-monospace footer'>
         <div className=''>
-          <ReactTooltip />
+          {/* <ReactTooltip /> */}
           <Zoom right cascade>
             <a href='mailto:deon.choi@gmail.com' className='contactButton' data-tip='Email'>
               <img src={EmailIcon} alt='Email Link for Deon Choi' className='contactImage'/>
             </a>
           </Zoom>
-          <ReactTooltip />
+          {/* <ReactTooltip /> */}
           <Zoom top cascade>
             <a href='https://github.com/deonchoi' target='_blank' rel='noopener noreferrer' className='contactButton' data-tip='GitHub'>
               <img src={GithubIcon} alt='GitHub page for Deon Choi' className='contactImage'/>
             </a>
           </Zoom>
-          <ReactTooltip />
+          {/* <ReactTooltip /> */}
           <Zoom right cascade>
             <a href='https://www.linkedin.com/in/deon-choi-b3019b128/' target='_blank' rel='noopener noreferrer' className='contactButton' data-tip='LinkedIn'>
               <img src={LinkedInIcon} alt='LinkedIn page for Deon Choi' className='contactImage'/>
             </a>
           </Zoom>
-          <ReactTooltip />
+          {/* <ReactTooltip /> */}
           <Zoom top cascade>
             <a href={ResumePDF} target='_blank' rel='noopener noreferrer' className='contactButton' data-tip='Resume'>
               <img src={ResumeIcon} alt='Resume for Deon Choi' className='contactImage'/>
