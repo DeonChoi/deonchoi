@@ -47,9 +47,9 @@ const About = () => {
                 <section className='d-flex flex-wrap justify-content-between skillIconRow'>
                     <ReactTooltip />
                     <img src={PythonIcon} alt='Python' className='skillIcon' data-tip='Python'/>
+                    <img src={JavaScriptIcon} alt='JavaScript' className='skillIcon' data-tip='JavaScript'/>
                     <img src={HtmlIcon} alt='HTML' className='skillIcon' data-tip='HTML 5'/>
                     <img src={CssIcon} alt='CSS' className='skillIcon' data-tip='CSS 3'/>
-                    <img src={JavaScriptIcon} alt='JavaScript' className='skillIcon' data-tip='JavaScript'/>
                     <img src={jQueryIcon} alt='jQuery' className='skillIcon' data-tip='jQuery'/>
                     <img src={SassIcon} alt='SASS' className='skillIcon' data-tip='SASS'/>
                     <img src={BootstrapIcon} alt='Bootstrap' className='skillIcon' data-tip='Bootstrap 4'/>
