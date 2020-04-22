@@ -50,14 +50,14 @@ const App = () => {
 
         <ReactTooltip />
         <header className='fixed-top'>
-          {/* <Zoom bottom cascade> */}
+          <Zoom bottom>
             <button className='float-right btn menuButton' onClick={toggleNav}>
               {/* <img src={MenuIcon} alt='Menu Navigation' className='menuIcon'/> */}
               <div className='openIcon' style={ isOpen ? closeMenu1 : null }></div>
               <div className='openIcon' style={ isOpen ? closeMenu2 : null }></div>
               <div className='openIcon' style={ isOpen ? closeMenu3 : null }></div>
             </button>
-          {/* </Zoom> */}
+          </Zoom>
         </header>
 
       <nav id='mySidenav' className='sidenav' style={ isOpen ? openNavStyle : closeNavStyle } onClick={toggleNav}>
