@@ -6,6 +6,10 @@
 .aboutStrong {
     color: hsl(205, 100%, 65%);
 }
+.aboutUnderline {
+    text-decoration-line: underline;
+    /* text-decoration-style: dashed; */
+}
 .skillIconRow {
     width: 100%;
 }
