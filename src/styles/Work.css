@@ -8,12 +8,13 @@
     height: 2rem;
     margin: 0 1rem 0 0;
     opacity: 1;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out, transform .5s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out, transform .5s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out, transform .5s ease-in-out;
 }
 .githubIcon:hover {
     opacity:0.5;
+    transform: scale(1.5);
 }
 
 .projectCard {
@@ -23,13 +24,14 @@
 .projectImage {
     width: 100%;
     opacity: 1;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out, transform .5s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out, transform .5s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out, transform .5s ease-in-out;
     border: 1px solid rgb(58, 58, 58);
 }
 .projectImage:hover {
     opacity:0.5;
+    transform: scale(1.1);
 }
 .projectTitle {
     font-size: 2.50rem;
