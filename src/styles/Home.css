@@ -1,17 +1,26 @@
 .homeContainer {
     min-height: 100vh;
     color: white;
+    font-family: 'Montserrat', sans-serif!important;
+    text-transform: uppercase;
 }    
+.homeName-container {
+    margin-bottom: 1.25rem;
+    letter-spacing: 5px;
+}
+.homeDescription {
+    letter-spacing: 2px;
+}
 
 @media only screen and (max-width: 400px) {
     .homeContainer {
         margin: -5% 0%;
     } 
     .homeName {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .homeDescription {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
   }
 
@@ -22,10 +31,10 @@
   }
   @media only screen and (min-width: 768px) {
     .homeName {
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
     .homeDescription {
-        font-size: 3rem;
+        font-size: 2.25rem;
     } 
   }
   @media only screen and (min-width: 1440px) {
@@ -35,9 +44,9 @@
   }
   @media only screen and (min-width: 2000px) {
     .homeName {
-        font-size: 7rem;
+        font-size: 5rem;
     }
     .homeDescription {
-        font-size: 5rem;
+        font-size: 3rem;
     } 
   }
