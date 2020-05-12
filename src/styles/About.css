@@ -8,7 +8,6 @@
 }
 .aboutUnderline {
     text-decoration-line: underline;
-    /* text-decoration-style: dashed; */
 }
 .skillIconRow {
     width: 100%;
@@ -20,9 +19,6 @@
     cursor: none;
 }
 .aboutDescription {
-    font-family: 'Lexend Deca', sans-serif!important;
-     /* font-family: 'Montserrat', sans-serif!important; */
-    /* max-width: 800px; */
     font-weight: 100;
 }
 br {

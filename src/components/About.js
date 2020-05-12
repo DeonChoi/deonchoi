@@ -29,7 +29,7 @@ const About = () => {
                     <h1 className='display-4 text-center aboutHeader'>About Me</h1>
                     </Roll>
                     <Fade left>
-                    <p className='aboutDescription text-monospace'>
+                    <p className='aboutDescription'>
                         Hi, my name is Deon Choi.
                         I was born and raised in the <strong className='aboutStrong'>San Francisco Bay Area</strong> and am now working in <strong className='aboutStrong'>Washington D.C.</strong>
                         <br></br>
