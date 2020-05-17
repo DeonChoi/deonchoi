@@ -2,7 +2,12 @@
     min-height: 100vh;
     margin: 0 10%;
 }    
-
+#workContainer-lightMode {
+    color: black;
+}  
+#workContainer-darkMode {
+    color: white;
+} 
 .githubIcon {
     width: 2rem;    
     height: 2rem;
@@ -27,7 +32,8 @@
     transition: opacity .25s ease-in-out, transform .5s ease-in-out;
     -moz-transition: opacity .25s ease-in-out, transform .5s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out, transform .5s ease-in-out;
-    border: 1px solid rgb(58, 58, 58);
+    /* border: 1px solid rgb(100, 100, 100); */
+    border-radius: 5px;
 }
 .projectImage:hover {
     opacity:0.5;
@@ -39,8 +45,15 @@
 .techstack {
     font-size: 1rem;
     /* margin: 0 0.125rem; */
-    border: 0.5px solid white;
+    /* border: 0.5px solid white; */
     background-color: transparent;
+}
+
+.techstackDark {
+    border: 0.5px solid white;
+}
+.techstackLight {
+    border: 0.5px solid black;
 }
 
 @media only screen and (max-width: 321px) {

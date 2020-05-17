@@ -2,7 +2,13 @@
     min-height: 100vh;
     color: white;
     margin: -5% 20%;
-}    
+}  
+#aboutContainer-lightMode {
+    color: black;
+}  
+#aboutContainer-darkMode {
+    color: white;
+} 
 .aboutStrong {
     color: hsl(205, 100%, 65%);
 }
@@ -32,7 +38,7 @@ br {
         margin: -15% 0;
     }  
     .aboutHeader {
-        font-size: 
+        font-size:  5rem;
     }
     .aboutDescription {
         font-size: 1.6rem;

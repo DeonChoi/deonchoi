@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/Home.css';
 import Scramble from 'react-scramble';
 import Zoom from 'react-reveal/Zoom';
 
-const Home = () => {
+const Home = (isDark) => {
     
+    useEffect( () => {
+        if (isDark.isDark === true) {
+            document.querySelector('.homeContainer').id = 'homeContainer-lightMode'
+        } else {
+            document.querySelector('.homeContainer').id = 'homeContainer-darkMode'
+        }
+    }, [isDark])
+
+
     return (
+        
         <main className='d-flex flex-column text-monospace align-items-center justify-content-center homeContainer'>
         <Zoom>
             <h1 className='homeName-container'>

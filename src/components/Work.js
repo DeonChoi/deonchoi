@@ -1,21 +1,47 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/Work.css';
 
 import SnapIcon from '../images/work/Snap.png';
 import FlixIcon from '../images/work/Flix.png';
 import PhraseHunterIcon from '../images/work/PhraseHunter.png';
 import ShrinkifyIcon from '../images/work/Shrinkify.png';
-import GitHubIon from '../images/work/githubSmall.png';
+import GitHubIcon from '../images/work/githubSmall.png';
+import GitHubDarkIcon from '../images/work/githubSmallDark.png';
 import Zoom from 'react-reveal/Zoom';
 
 import ReactTooltip from 'react-tooltip';
 
 
-const Work = () => {
-    
+const Work = (isDark) => {
+    useEffect( () => {
+        if (isDark.isDark === true) {
+            document.querySelector('.workContainer').id = 'workContainer-darkMode'
+            document.querySelectorAll('.techstack').forEach( (badge) => {
+                badge.classList = 'badge badge-dark techstack techstackDark'
+            })
+            document.querySelectorAll('.githubIcon').forEach( (projectImage) => {
+                projectImage.src = GitHubIcon
+            })
+            document.querySelectorAll('.projectImage').forEach( (projectImage) => {
+                projectImage.style.boxShadow = '0 0 15px white';
+            })
+        } else {
+            document.querySelector('.workContainer').id = 'workContainer-lightMode'
+            document.querySelectorAll('.techstack').forEach( (badge) => {
+                badge.classList = 'badge badge-light techstack techstackLight'
+            })
+            document.querySelectorAll('.githubIcon').forEach( (projectImage) => {
+                projectImage.src = GitHubDarkIcon
+            })
+            document.querySelectorAll('.projectImage').forEach( (projectImage) => {
+                projectImage.style.boxShadow = '0 0 15px black';
+            })
+        }
+    }, [isDark])
+
     return (
         
-        <main className='d-flex flex-wrap align-items-center align-content-center justify-content-center text-center text-monospace text-white workContainer'>
+        <main className='d-flex flex-wrap align-items-center align-content-center justify-content-center text-center text-monospace workContainer'>
            <ReactTooltip />
            <Zoom>
            
@@ -29,19 +55,19 @@ const Work = () => {
                     <div className='align-items-center justify-content-center d-flex'>
                        
                         <a target='_blank' href='https://github.com/DeonChoi/flix-app' rel='noopener noreferrer' className='' data-tip="GitHub Repository">
-                            <img src={GitHubIon} alt='Github Repository for Flix project' className='githubIcon'/>
+                            <img src={GitHubIcon} alt='Github Repository for Flix project' className='githubIcon'/>
                         </a>
                         <figcaption className='projectTitle'>Flix</figcaption>
                     </div>
                 </main>
 
                 <section className='techstackRow'>
-                    <span className='badge badge-dark techstack'>Node.js</span>
-                    <span className='badge badge-dark techstack'>Express.js</span>
-                    <span className='badge badge-dark techstack'>React.js</span>
-                    <span className='badge badge-dark techstack'>MySQL</span>
-                    <span className='badge badge-dark techstack'>Bootstrap</span>
-                    <span className='badge badge-dark techstack'>JWT</span>
+                    <span className='badge techstack'>Node.js</span>
+                    <span className='badge techstack'>Express.js</span>
+                    <span className='badge techstack'>React.js</span>
+                    <span className='badge techstack'>MySQL</span>
+                    <span className='badge techstack'>Bootstrap</span>
+                    <span className='badge techstack'>JWT</span>
                 </section>
 
             </figure>
@@ -54,19 +80,19 @@ const Work = () => {
                     </a>
                     <div className='align-items-center justify-content-center d-flex'>
                         <a target='_blank' href='https://github.com/DeonChoi/snap' rel='noopener noreferrer' className='' data-tip="GitHub Repository">
-                            <img src={GitHubIon} alt='Github Repository for Delish project' className='githubIcon'/>
+                            <img src={GitHubIcon} alt='Github Repository for Delish project' className='githubIcon'/>
                         </a>
                         <figcaption className='projectTitle'>Snap</figcaption>
                     </div>
                 </main>
 
                 <section className='techstackRow'>
-                    <span className='badge badge-dark techstack'>Node.js</span>
-                    <span className='badge badge-dark techstack'>Express.js</span>
-                    <span className='badge badge-dark techstack'>React.js</span>
-                    <span className='badge badge-dark techstack'>MongoDB</span>
-                    <span className='badge badge-dark techstack'>CSS</span>
-                    <span className='badge badge-dark techstack'>JWT</span>
+                    <span className='badge techstack'>Node.js</span>
+                    <span className='badge techstack'>Express.js</span>
+                    <span className='badge techstack'>React.js</span>
+                    <span className='badge techstack'>MongoDB</span>
+                    <span className='badge techstack'>CSS</span>
+                    <span className='badge techstack'>JWT</span>
                 </section>
 
             </figure>
@@ -80,7 +106,7 @@ const Work = () => {
 
                     <div className='align-items-center justify-content-center d-flex'>
                         <a target='_blank' href='https://github.com/DeonChoi/shrinkURL' rel='noopener noreferrer' className='' data-tip="GitHub Repository">
-                            <img src={GitHubIon} alt='Github Repository for Shrinkify project' className='githubIcon'/>
+                            <img src={GitHubIcon} alt='Github Repository for Shrinkify project' className='githubIcon'/>
                         </a>
                         <figcaption className='projectTitle'>Shrinkify</figcaption>
                     </div>
@@ -88,12 +114,12 @@ const Work = () => {
                 </main>
 
                 <section className='techstackRow'>
-                    <span className='badge badge-dark techstack'>Node.js</span>
-                    <span className='badge badge-dark techstack'>Express.js</span>
-                    <span className='badge badge-dark techstack'>React.js</span>
-                    <span className='badge badge-dark techstack'>MongoDB</span>
-                    <span className='badge badge-dark techstack'>Bootstrap</span>
-                    <span className='badge badge-dark techstack'>JWT</span>
+                    <span className='badge techstack'>Node.js</span>
+                    <span className='badge techstack'>Express.js</span>
+                    <span className='badge techstack'>React.js</span>
+                    <span className='badge techstack'>MongoDB</span>
+                    <span className='badge techstack'>Bootstrap</span>
+                    <span className='badge techstack'>JWT</span>
 
                 </section>
 
@@ -106,16 +132,16 @@ const Work = () => {
                     </a>
                     <div className='align-items-center justify-content-center d-flex'>
                             <a target='_blank' href='https://github.com/DeonChoi/OOPgameShowApp' rel='noopener noreferrer' className='' data-tip="GitHub Repository">
-                            <img src={GitHubIon} alt='Github Repository for Phrase Hunter project' className='githubIcon'/>
+                            <img src={GitHubIcon} alt='Github Repository for Phrase Hunter project' className='githubIcon'/>
                         </a>
                         <figcaption className='projectTitle'>Phrase Hunter</figcaption>
                     </div>
                 </main>    
                 
                 <section className='techstackRow'>
-                    <span className='badge badge-dark techstack'>HTML</span>
-                    <span className='badge badge-dark techstack'>CSS</span>
-                    <span className='badge badge-dark techstack'>jQuery</span>
+                    <span className='badge techstack'>HTML</span>
+                    <span className='badge techstack'>CSS</span>
+                    <span className='badge techstack'>jQuery</span>
                 </section>
                 
             </figure>

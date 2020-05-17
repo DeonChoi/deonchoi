@@ -11,6 +11,24 @@ body {
 /* overflow: hidden; */
 }
 
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.dark-toggle {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  box-shadow: 0px 0px 15px white;
+  border: none;
+  outline: none;
+}
+
 .sidenav {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
@@ -19,8 +37,6 @@ body {
   top: 0; /* Stay at the top */
   right: 0;
   background-color: rgb(10, 10, 10); /* Black*/
-  border-left: 1px solid black;
-  border-radius: 3% 0 0 3%;
   overflow-x: hidden; /* Disable horizontal scroll */
   /* padding-top: 5rem; Place content 5rem from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -98,8 +114,8 @@ footer {
 }
 
 .openIcon {
-  width: 35px;
-  height: 5px;
+  width: 30px;
+  height: 3px;
   background-color: white;
   margin: 6px 0;
   border-radius: 5px;
@@ -131,4 +147,23 @@ footer {
   .contactImage {
     width: 3.75rem;
   }
+}
+
+#darkmode-menuIcon {
+  background-color: black;
+}
+.darkmode-body {
+  background-color: white;
+}
+#darkmode-darkModeButton {
+  box-shadow: 0px 0px 15px black;
+  background-color: black;
+  border: none;
+  outline: none;
+}
+#darkmode-Sidenav{
+  background-color: white;
+}
+#darkmode-Sidenav a{
+  color: black;
 }
