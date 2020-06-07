@@ -64,7 +64,7 @@ const App = () => {
         <Zoom bottom>
         <header className='fixed-top'>
           
-            <button className='dark-toggle' id={isDark ? null : 'darkmode-darkModeButton'} onClick={ () => toggleDarkMode()}></button>
+            <button className='dark-toggle' id={isDark ? null : 'darkmode-darkModeButton'} onClick={ () => toggleDarkMode()}><i class="far fa-lightbulb" id={isDark ? null : 'lightbulb-darkMode'}></i></button>
 
             
             <button className='float-right btn menuButton' onClick={toggleNav}>
