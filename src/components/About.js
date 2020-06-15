@@ -31,9 +31,9 @@ const About = (isDark) => {
         } else {
             document.querySelector('.aboutContainer').id = 'aboutContainer-lightMode'
             document.querySelectorAll('.aboutStrong').forEach( (aboutStrong) => {
-                aboutStrong.style.color = 'mediumblue'
+                aboutStrong.style.color = 'firebrick'
             })
-            document.querySelector('.aboutDescription').style.fontWeight = '400'
+            document.querySelector('.aboutDescription').style.fontWeight = '100'
         }
     }, [isDark])
 

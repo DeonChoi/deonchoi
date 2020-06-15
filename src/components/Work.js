@@ -23,7 +23,7 @@ const Work = (isDark) => {
                 projectImage.src = GitHubIcon
             })
             document.querySelectorAll('.projectImage').forEach( (projectImage) => {
-                projectImage.style.boxShadow = '0 0 15px white';
+                projectImage.style.boxShadow = '0 0 5px white';
             })
         } else {
             document.querySelector('.workContainer').id = 'workContainer-lightMode'
@@ -34,7 +34,7 @@ const Work = (isDark) => {
                 projectImage.src = GitHubDarkIcon
             })
             document.querySelectorAll('.projectImage').forEach( (projectImage) => {
-                projectImage.style.boxShadow = '0 0 15px black';
+                projectImage.style.boxShadow = '0 0 5px black';
             })
         }
     }, [isDark])

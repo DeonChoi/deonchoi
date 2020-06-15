@@ -17,7 +17,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 1rem;
 }
 
 /* .dark-toggle {
@@ -167,13 +166,16 @@ footer {
 #darkmode-Sidenav a{
   color: black;
 }
+#darkmode-Sidenav a:hover{
+  color: firebrick;
+}
 
 i {
   color: white;
   
 }
 .dark-toggle {
-  font-size: 2rem;
+  font-size: 32px;
   /* width: 2.5rem;
   height: 3rem; */
   background-color: rgb(10, 10, 10);
@@ -182,6 +184,8 @@ i {
   justify-content: center;
   align-items: center;
   border: white;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 #darkmode-darkModeButton {
   font-size: 2rem;
