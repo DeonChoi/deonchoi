@@ -79,9 +79,9 @@ const App = () => {
         </Zoom>
 
       <nav id={isDark ? null : 'darkmode-Sidenav'} className='sidenav' style={ isOpen ? openNavStyle : closeNavStyle } onClick={toggleNav}>
-        <Link to={'/'} onClick={toggleNav}>Home</Link>
-        <Link to={'/about'} onClick={toggleNav}>About</Link>
-        <Link to={'/work'} onClick={toggleNav}>Work</Link>
+        <Link to={'/'} onClick={toggleNav}>HOME</Link>
+        <Link to={'/about'} onClick={toggleNav}>ABOUT</Link>
+        <Link to={'/work'} onClick={toggleNav}>WORK</Link>
       </nav>
 
       <main>
