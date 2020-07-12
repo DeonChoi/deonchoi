@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgb(10, 10, 10);
+  background-color: black;
 
   position: fixed;
   width: 100%;
@@ -35,7 +35,7 @@ header {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   right: 0;
-  background-color: rgb(10, 10, 10); /* Black*/
+  background-color: black; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   /* padding-top: 5rem; Place content 5rem from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -178,7 +178,7 @@ i {
   font-size: 32px;
   /* width: 2.5rem;
   height: 3rem; */
-  background-color: rgb(10, 10, 10);
+  background-color: black;
   border-radius: 50%;
   display: flex;
   justify-content: center;

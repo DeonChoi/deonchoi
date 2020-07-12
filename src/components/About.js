@@ -54,7 +54,7 @@ const About = (isDark) => {
                         <br></br>
                         I utilize the <a className='aboutStrong aboutUnderline' href='https://www.educative.io/edpresso/what-is-mern-stack' target='_blank' rel="noopener noreferrer"><strong className='aboutStrong'>MERN</strong></a> stack to create minimalistic, <strong className='aboutStrong'>responsive</strong>, and <strong className='aboutStrong'>mobile-first</strong> applications.
                         <br></br>
-                        I enjoy fitness, nutrition, music, and sports. I'm a Lakers, Rams/Chargers, Juventus, and die-hard <strong className='aboutStrong'>Dodgers</strong> fan.
+                        I enjoy fitness, nutrition, music, and sports. I'm a Lakers, Chargers, Juventus, and die-hard <strong className='aboutStrong'>Dodgers</strong> fan.
                     </p>
                     </Fade>
                 </section>
