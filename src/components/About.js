@@ -5,9 +5,10 @@ import Fade from 'react-reveal/Fade';
 import Roll from 'react-reveal/Roll';
 
 import PythonIcon from '../images/about/python.png';
+import JavaIcon from '../images/about/java.png';
+import JavaScriptIcon from '../images/about/javascript_alternate.png';
 import HtmlIcon from '../images/about/html.png';
 import CssIcon from '../images/about/css.png';
-import JavaScriptIcon from '../images/about/javascript.png';
 import jQueryIcon from '../images/about/jquery.png';
 import SassIcon from '../images/about/sass.png';
 import BootstrapIcon from '../images/about/bootstrap.png';
@@ -62,13 +63,14 @@ const About = (isDark) => {
             <Roll bottom big cascade>
                 <section className='d-flex flex-wrap justify-content-between skillIconRow'>
                     <ReactTooltip />
+                    <img src={JavaIcon} alt='Java' className='skillIcon' data-tip='Java'/>
                     <img src={PythonIcon} alt='Python' className='skillIcon' data-tip='Python'/>
                     <img src={JavaScriptIcon} alt='JavaScript' className='skillIcon' data-tip='JavaScript'/>
-                    <img src={HtmlIcon} alt='HTML' className='skillIcon' data-tip='HTML 5'/>
-                    <img src={CssIcon} alt='CSS' className='skillIcon' data-tip='CSS 3'/>
-                    <img src={jQueryIcon} alt='jQuery' className='skillIcon' data-tip='jQuery'/>
-                    <img src={SassIcon} alt='SASS' className='skillIcon' data-tip='SASS'/>
-                    <img src={BootstrapIcon} alt='Bootstrap' className='skillIcon' data-tip='Bootstrap 4'/>
+                    <img src={HtmlIcon} alt='HTML' className='skillIcon' data-tip='HTML'/>
+                    <img src={CssIcon} alt='CSS' className='skillIcon' data-tip='CSS'/>
+                    <img src={jQueryIcon} alt='jQuery' className='skillIcon hideIcon' data-tip='jQuery'/>
+                    <img src={SassIcon} alt='SASS' className='skillIcon hideIcon' data-tip='SASS'/>
+                    <img src={BootstrapIcon} alt='Bootstrap' className='skillIcon hideIcon' data-tip='Bootstrap'/>
                     <img src={ReactIcon} alt='React.js' className='skillIcon' data-tip='React.js'/>
                     <img src={ExpressIcon} alt='Express.js' className='skillIcon' data-tip='Express.js'/>
                     <img src={NodeIcon} alt='Node.js' className='skillIcon' data-tip='Node.js'/>
