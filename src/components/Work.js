@@ -97,54 +97,54 @@ const Work = (isDark) => {
 
             </figure>
 
-            <figure className='projectCard'>
-                
-                <main className='projectInfo'>
-                    <a target='_blank' href='https://shrinkurlapp.herokuapp.com/api/' rel='noopener noreferrer' className='' data-tip="Create shortened URLs by creating an account and logging in. Your shortened URLs wil be saved to your user profile.">
-                        <img src={ShrinkifyIcon} alt='Shrinkify Project' className='projectImage'/>
-                    </a>
+            {/*<figure className='projectCard'>*/}
+            {/*    */}
+            {/*    <main className='projectInfo'>*/}
+            {/*        <a target='_blank' href='https://shrinkurlapp.herokuapp.com/api/' rel='noopener noreferrer' className='' data-tip="Create shortened URLs by creating an account and logging in. Your shortened URLs wil be saved to your user profile.">*/}
+            {/*            <img src={ShrinkifyIcon} alt='Shrinkify Project' className='projectImage'/>*/}
+            {/*        </a>*/}
 
-                    <div className='align-items-center justify-content-center d-flex'>
-                        <a target='_blank' href='https://github.com/DeonChoi/shrinkURL' rel='noopener noreferrer' className='' data-tip="GitHub Repository">
-                            <img src={GitHubIcon} alt='Github Repository for Shrinkify project' className='githubIcon'/>
-                        </a>
-                        <figcaption className='projectTitle'>Shrinkify</figcaption>
-                    </div>
+            {/*        <div className='align-items-center justify-content-center d-flex'>*/}
+            {/*            <a target='_blank' href='https://github.com/DeonChoi/shrinkURL' rel='noopener noreferrer' className='' data-tip="GitHub Repository">*/}
+            {/*                <img src={GitHubIcon} alt='Github Repository for Shrinkify project' className='githubIcon'/>*/}
+            {/*            </a>*/}
+            {/*            <figcaption className='projectTitle'>Shrinkify</figcaption>*/}
+            {/*        </div>*/}
 
-                </main>
+            {/*    </main>*/}
 
-                <section className='techstackRow'>
-                    <span className='badge techstack'>Node.js</span>
-                    <span className='badge techstack'>Express.js</span>
-                    <span className='badge techstack'>React.js</span>
-                    <span className='badge techstack'>MongoDB</span>
-                    <span className='badge techstack'>Bootstrap</span>
-                    <span className='badge techstack'>JWT</span>
+            {/*    <section className='techstackRow'>*/}
+            {/*        <span className='badge techstack'>Node.js</span>*/}
+            {/*        <span className='badge techstack'>Express.js</span>*/}
+            {/*        <span className='badge techstack'>React.js</span>*/}
+            {/*        <span className='badge techstack'>MongoDB</span>*/}
+            {/*        <span className='badge techstack'>Bootstrap</span>*/}
+            {/*        <span className='badge techstack'>JWT</span>*/}
 
-                </section>
+            {/*    </section>*/}
 
-            </figure>
+            {/*</figure>*/}
 
-            <figure className='projectCard'>
-                <main className='projectInfo'>
-                    <a target='_blank' href='https://deonchoi.github.io/OOPgameShowApp/' rel='noopener noreferrer' className='' data-tip="A guessing game. A random phrase is chosen, and you have 5 lives to correctly guess the letters in the phrase.">
-                        <img src={PhraseHunterIcon} alt='Phrase Hunter Project' className='projectImage'/>
-                    </a>
-                    <div className='align-items-center justify-content-center d-flex'>
-                            <a target='_blank' href='https://github.com/DeonChoi/OOPgameShowApp' rel='noopener noreferrer' className='' data-tip="GitHub Repository">
-                            <img src={GitHubIcon} alt='Github Repository for Phrase Hunter project' className='githubIcon'/>
-                        </a>
-                        <figcaption className='projectTitle'>Phrase Hunter</figcaption>
-                    </div>
-                </main>    
-                
-                <section className='techstackRow'>
-                    <span className='badge techstack'>HTML</span>
-                    <span className='badge techstack'>CSS</span>
-                    <span className='badge techstack'>jQuery</span>
-                </section>
-                
-            </figure>
+            {/*<figure className='projectCard'>*/}
+            {/*    <main className='projectInfo'>*/}
+            {/*        <a target='_blank' href='https://deonchoi.github.io/OOPgameShowApp/' rel='noopener noreferrer' className='' data-tip="A guessing game. A random phrase is chosen, and you have 5 lives to correctly guess the letters in the phrase.">*/}
+            {/*            <img src={PhraseHunterIcon} alt='Phrase Hunter Project' className='projectImage'/>*/}
+            {/*        </a>*/}
+            {/*        <div className='align-items-center justify-content-center d-flex'>*/}
+            {/*                <a target='_blank' href='https://github.com/DeonChoi/OOPgameShowApp' rel='noopener noreferrer' className='' data-tip="GitHub Repository">*/}
+            {/*                <img src={GitHubIcon} alt='Github Repository for Phrase Hunter project' className='githubIcon'/>*/}
+            {/*            </a>*/}
+            {/*            <figcaption className='projectTitle'>Phrase Hunter</figcaption>*/}
+            {/*        </div>*/}
+            {/*    </main>    */}
+            {/*    */}
+            {/*    <section className='techstackRow'>*/}
+            {/*        <span className='badge techstack'>HTML</span>*/}
+            {/*        <span className='badge techstack'>CSS</span>*/}
+            {/*        <span className='badge techstack'>jQuery</span>*/}
+            {/*    </section>*/}
+            {/*    */}
+            {/*</figure>*/}
             
             </Zoom>
         </main>
