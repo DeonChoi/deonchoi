@@ -1,22 +1,17 @@
-import React, { useEffect } from 'react';
+import React, { useContext } from 'react';
 import '../styles/Home.css';
 import Scramble from 'react-scramble';
 import Zoom from 'react-reveal/Zoom';
+import {Context} from './Context'
 
-const Home = (isDark) => {
+
+const Home = () => {
     
-    useEffect( () => {
-        if (isDark.isDark === true) {
-            document.querySelector('.homeContainer').id = 'homeContainer-lightMode'
-        } else {
-            document.querySelector('.homeContainer').id = 'homeContainer-darkMode'
-        }
-    }, [isDark])
-
+    const {isDark} = useContext(Context)
 
     return (
         
-        <main className='d-flex flex-column text-monospace align-items-center justify-content-center homeContainer'>
+        <main className='d-flex flex-column text-monospace align-items-center justify-content-center homeContainer' id={isDark ? 'homeContainer-lightMode' : 'homeContainer-darkMode'}>
         <Zoom>
             <h1 className='homeName-container'>
                 <Scramble autoStart text='Deon Choi' className='display-2 homeName'

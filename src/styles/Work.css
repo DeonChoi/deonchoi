@@ -3,10 +3,10 @@
     margin: 0 10%;
 }    
 #workContainer-lightMode {
-    color: black;
+    color: white;
 }  
 #workContainer-darkMode {
-    color: white;
+    color: black;
 } 
 .githubIcon {
     width: 2rem;    

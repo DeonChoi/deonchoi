@@ -19,8 +19,10 @@ import LinkedInDarkIcon from '../images/footer/linkedin_dark.png';
 import EmailDarkIcon from '../images/footer/email_dark.png';
 import ResumeDarkIcon from '../images/footer/resume_dark.png';
 
-
 import ResumePDF from '../images/footer/DeonChoiResume.pdf';
+
+import {Context} from "./Context";
+
 
 
 const App = () => {
@@ -84,11 +86,13 @@ const App = () => {
         <Link to={'/work'} onClick={toggleNav}>WORK</Link>
       </nav>
 
+      <Context.Provider value={{ isDark, setIsDark }}>
       <main>
-        <Route exact path={'/'} render={ () => <Home isDark={isDark}/>} />
-        <Route exact path={'/about'} render={ () => <About isDark={isDark}/>} />
-        <Route exact path={'/work'} render={ () => <Work isDark={isDark}/>} />
+        <Route exact path={'/'} render={ () => <Home/>} />
+        <Route exact path={'/about'} render={ () => <About/>} />
+        <Route exact path={'/work'} render={ () => <Work/>} />
       </main>
+      </Context.Provider>
 
       <footer className='text-center fixed-bottom font-weight-light text-monospace footer'>
         <div className=''>
