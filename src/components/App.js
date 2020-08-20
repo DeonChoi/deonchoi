@@ -54,7 +54,8 @@ const App = () => {
   };
 
   const toggleDarkMode = () => {
-    isDark ? setIsDark(false) : setIsDark(true);
+    // isDark ? setIsDark(false) : setIsDark(true);
+    setIsDark(!isDark)
     document.querySelector('body').classList.toggle('darkmode-body');
   }
 
