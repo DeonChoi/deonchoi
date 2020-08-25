@@ -32,9 +32,9 @@ br {
     content: '';
     margin: 0.5rem 0;
 }
-.hideIcon {
+/* .hideIcon {
     display: none;
-}
+} */
 
 @media only screen and (max-width: 350px) {
     .aboutContainer {

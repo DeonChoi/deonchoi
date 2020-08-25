@@ -1,10 +1,11 @@
 import React, { useEffect, useContext } from 'react';
 import '../styles/Work.css';
 
-import SnapIcon from '../images/work/Snap.png';
+// import SnapIcon from '../images/work/Snap.png';
+import PixIcon from '../images/work/Pix.png';
 import FlixIcon from '../images/work/Flix.png';
-import PhraseHunterIcon from '../images/work/PhraseHunter.png';
-import ShrinkifyIcon from '../images/work/Shrinkify.png';
+// import PhraseHunterIcon from '../images/work/PhraseHunter.png';
+// import ShrinkifyIcon from '../images/work/Shrinkify.png';
 import GitHubIcon from '../images/work/githubSmall.png';
 import GitHubDarkIcon from '../images/work/githubSmallDark.png';
 import Zoom from 'react-reveal/Zoom';
@@ -35,6 +36,32 @@ const Work = () => {
         <main className='d-flex flex-wrap align-items-center align-content-center justify-content-center text-center text-monospace workContainer' id={isDark ? 'workContainer-lightMode' : 'workContainer-darkMode'}>
            <ReactTooltip />
            <Zoom>
+
+           <figure className='projectCard'>
+
+                <main className='projectInfo'>
+                    <a target='_blank' href='https://pix-images-app.herokuapp.com/' rel='noopener noreferrer' className='' data-tip="Search for images by keyword. If you create an account and login, you're able to save the images to your own collection.">
+                        <img src={PixIcon} alt='Snap Project' className='projectImage' style={isDark ? {boxShadow:'0 0 5px white'} : {boxShadow:'0 0 5px black'}}/>
+                    </a>
+                    <div className='align-items-center justify-content-center d-flex'>
+                        <a target='_blank' href='https://github.com/DeonChoi/pix-app' rel='noopener noreferrer' className='' data-tip="GitHub Repository">
+                            <img src={isDark ? GitHubIcon : GitHubDarkIcon} alt='Github Repository for Delish project' className='githubIcon'/>
+                        </a>
+                        <figcaption className='projectTitle'>pix</figcaption>
+                    </div>
+                </main>
+
+                <section className='techstackRow'>
+                    <span className={isDark ? 'badge badge-dark techstack techstackDark' : 'badge badge-light techstack techstackLight'}>Node.js</span>
+                    <span className={isDark ? 'badge badge-dark techstack techstackDark' : 'badge badge-light techstack techstackLight'}>Express.js</span>
+                    <span className={isDark ? 'badge badge-dark techstack techstackDark' : 'badge badge-light techstack techstackLight'}>React.js</span>
+                    <span className={isDark ? 'badge badge-dark techstack techstackDark' : 'badge badge-light techstack techstackLight'}>MongoDB</span>
+                    <span className={isDark ? 'badge badge-dark techstack techstackDark' : 'badge badge-light techstack techstackLight'}>Bootstrap</span>
+                    <span className={isDark ? 'badge badge-dark techstack techstackDark' : 'badge badge-light techstack techstackLight'}>JWT</span>
+                    <span className={isDark ? 'badge badge-dark techstack techstackDark' : 'badge badge-light techstack techstackLight'}>OAuth</span>
+                </section>
+
+            </figure>
            
            <figure className='projectCard'>
 
@@ -48,7 +75,7 @@ const Work = () => {
                         <a target='_blank' href='https://github.com/DeonChoi/flix-app' rel='noopener noreferrer' className='' data-tip="GitHub Repository">
                             <img src={isDark ? GitHubIcon : GitHubDarkIcon} alt='Github Repository for Flix project' className='githubIcon'/>
                         </a>
-                        <figcaption className='projectTitle'>Flix</figcaption>
+                        <figcaption className='projectTitle'>flix</figcaption>
                     </div>
                 </main>
 
@@ -63,30 +90,7 @@ const Work = () => {
 
             </figure>
 
-           <figure className='projectCard'>
-
-                <main className='projectInfo'>
-                    <a target='_blank' href='https://snapunsplash.herokuapp.com/' rel='noopener noreferrer' className='' data-tip="Search for images by keyword. If you create an account and login, you're able to save the images to your own collection.">
-                        <img src={SnapIcon} alt='Snap Project' className='projectImage' style={isDark ? {boxShadow:'0 0 5px white'} : {boxShadow:'0 0 5px black'}}/>
-                    </a>
-                    <div className='align-items-center justify-content-center d-flex'>
-                        <a target='_blank' href='https://github.com/DeonChoi/snap' rel='noopener noreferrer' className='' data-tip="GitHub Repository">
-                            <img src={isDark ? GitHubIcon : GitHubDarkIcon} alt='Github Repository for Delish project' className='githubIcon'/>
-                        </a>
-                        <figcaption className='projectTitle'>Snap</figcaption>
-                    </div>
-                </main>
-
-                <section className='techstackRow'>
-                    <span className={isDark ? 'badge badge-dark techstack techstackDark' : 'badge badge-light techstack techstackLight'}>Node.js</span>
-                    <span className={isDark ? 'badge badge-dark techstack techstackDark' : 'badge badge-light techstack techstackLight'}>Express.js</span>
-                    <span className={isDark ? 'badge badge-dark techstack techstackDark' : 'badge badge-light techstack techstackLight'}>React.js</span>
-                    <span className={isDark ? 'badge badge-dark techstack techstackDark' : 'badge badge-light techstack techstackLight'}>MongoDB</span>
-                    <span className={isDark ? 'badge badge-dark techstack techstackDark' : 'badge badge-light techstack techstackLight'}>CSS</span>
-                    <span className={isDark ? 'badge badge-dark techstack techstackDark' : 'badge badge-light techstack techstackLight'}>JWT</span>
-                </section>
-
-            </figure>
+           
 
             {/*<figure className='projectCard'>*/}
             {/*    */}

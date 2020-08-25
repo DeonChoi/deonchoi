@@ -37,13 +37,13 @@ const About = () => {
                     <Fade left>
                     <p className='aboutDescription'>
                         Hi, my name is Deon Choi.
-                        I was born and raised in the <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'firebrick'}}>San Francisco Bay Area</strong> and am now working in <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'firebrick'}}>Washington D.C.</strong>
+                        I was born and raised in the <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>San Francisco Bay Area</strong> and am now working in <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>Washington D.C.</strong>
                         <br></br>
-                        I graduated from <a className='aboutStrong' href='https://www.gwu.edu/' target='_blank' rel="noopener noreferrer" style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'firebrick'}}><strong className='aboutStrong aboutUnderline' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'firebrick'}}>The George Washington University</strong></a> in May 2019 with a Bachelor of Science in <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'firebrick'}}>Statistics</strong> & a Minor in <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'firebrick'}}>Computer Science</strong>. 
+                        I graduated from <a className='aboutStrong' href='https://www.gwu.edu/' target='_blank' rel="noopener noreferrer" style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}><strong className='aboutStrong aboutUnderline' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>The George Washington University</strong></a> in May 2019 with a Bachelor of Science in <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>Statistics</strong> & a Minor in <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>Computer Science</strong>. 
                         <br></br>
-                        I utilize the <a className='aboutStrong aboutUnderline' href='https://www.educative.io/edpresso/what-is-mern-stack' target='_blank' rel="noopener noreferrer" style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'firebrick'}}><strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'firebrick'}}>MERN</strong></a> stack to create minimalistic, <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'firebrick'}}>responsive</strong>, and <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'firebrick'}}>mobile-first</strong> applications.
+                        I utilize the <a className='aboutStrong aboutUnderline' href='https://www.educative.io/edpresso/what-is-mern-stack' target='_blank' rel="noopener noreferrer" style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}><strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>MERN</strong></a> stack to create minimalistic, <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>responsive</strong>, and <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>mobile-first</strong> applications.
                         <br></br>
-                        I enjoy fitness, nutrition, music, and sports. I'm a Lakers, Chargers, Juventus, and die-hard <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'firebrick'}}>Dodgers</strong> fan.
+                        I enjoy fitness, nutrition, music, and sports. I'm a Lakers, Chargers, <strong style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}} data-tip="I'm really undecided">Chelsea/PSG</strong>, and die-hard <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>Dodgers</strong> fan.
                     </p>
                     </Fade>
                 </section>
@@ -51,7 +51,7 @@ const About = () => {
             <Roll bottom big cascade>
                 <section className='d-flex flex-wrap justify-content-between skillIconRow'>
                     <ReactTooltip />
-                    <img src={JavaIcon} alt='Java' className='skillIcon' data-tip='Java'/>
+                    {/* <img src={JavaIcon} alt='Java' className='skillIcon' data-tip='Java'/> */}
                     <img src={PythonIcon} alt='Python' className='skillIcon' data-tip='Python'/>
                     <img src={JavaScriptIcon} alt='JavaScript' className='skillIcon' data-tip='JavaScript'/>
                     <img src={HtmlIcon} alt='HTML' className='skillIcon' data-tip='HTML'/>
