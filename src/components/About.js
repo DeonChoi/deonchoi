@@ -5,6 +5,7 @@ import Fade from 'react-reveal/Fade';
 import Roll from 'react-reveal/Roll';
 
 import PythonIcon from '../images/about/python.png';
+import DjangoIcon from '../images/about/django.png';
 import JavaIcon from '../images/about/java.png';
 import JavaScriptIcon from '../images/about/javascript_alternate.png';
 import HtmlIcon from '../images/about/html.png';
@@ -43,7 +44,7 @@ const About = () => {
                         <br></br>
                         I utilize the <a className='aboutStrong aboutUnderline' href='https://www.educative.io/edpresso/what-is-mern-stack' target='_blank' rel="noopener noreferrer" style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}><strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>MERN</strong></a> stack to create minimalistic, <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>responsive</strong>, and <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>mobile-first</strong> applications.
                         <br></br>
-                        I enjoy fitness, nutrition, music, and sports. I'm a Lakers, Chargers, <strong style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}} data-tip="I'm really undecided">Chelsea/PSG</strong>, and die-hard <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>Dodgers</strong> fan.
+                        I'm a Lakers, Chargers, <strong style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}} data-tip="I'm really undecided">Chelsea/Tottenham/PSG</strong>, and die-hard <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>Dodgers</strong> fan.
                     </p>
                     </Fade>
                 </section>
@@ -57,8 +58,9 @@ const About = () => {
                     <img src={HtmlIcon} alt='HTML' className='skillIcon' data-tip='HTML'/>
                     <img src={CssIcon} alt='CSS' className='skillIcon' data-tip='CSS'/>
                     <img src={jQueryIcon} alt='jQuery' className='skillIcon hideIcon' data-tip='jQuery'/>
-                    <img src={SassIcon} alt='SASS' className='skillIcon hideIcon' data-tip='SASS'/>
+                    {/* <img src={SassIcon} alt='SASS' className='skillIcon hideIcon' data-tip='SASS'/> */}
                     <img src={BootstrapIcon} alt='Bootstrap' className='skillIcon hideIcon' data-tip='Bootstrap'/>
+                    <img src={DjangoIcon} alt='Django' className='skillIcon' data-tip='Django'/>
                     <img src={ReactIcon} alt='React.js' className='skillIcon' data-tip='React.js'/>
                     <img src={ExpressIcon} alt='Express.js' className='skillIcon' data-tip='Express.js'/>
                     <img src={NodeIcon} alt='Node.js' className='skillIcon' data-tip='Node.js'/>
