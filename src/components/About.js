@@ -58,9 +58,9 @@ const About = () => {
                     <img src={HtmlIcon} alt='HTML' className='skillIcon' data-tip='HTML'/>
                     <img src={CssIcon} alt='CSS' className='skillIcon' data-tip='CSS'/>
                     <img src={jQueryIcon} alt='jQuery' className='skillIcon hideIcon' data-tip='jQuery'/>
-                    {/* <img src={SassIcon} alt='SASS' className='skillIcon hideIcon' data-tip='SASS'/> */}
+                    <img src={SassIcon} alt='SASS' className='skillIcon hideIcon' data-tip='SASS'/>
                     <img src={BootstrapIcon} alt='Bootstrap' className='skillIcon hideIcon' data-tip='Bootstrap'/>
-                    <img src={DjangoIcon} alt='Django' className='skillIcon' data-tip='Django'/>
+                    {/* <img src={DjangoIcon} alt='Django' className='skillIcon' data-tip='Django'/> */}
                     <img src={ReactIcon} alt='React.js' className='skillIcon' data-tip='React.js'/>
                     <img src={ExpressIcon} alt='Express.js' className='skillIcon' data-tip='Express.js'/>
                     <img src={NodeIcon} alt='Node.js' className='skillIcon' data-tip='Node.js'/>
