@@ -44,7 +44,7 @@ const About = () => {
                         <br></br>
                         I utilize the <a className='aboutStrong aboutUnderline' href='https://www.educative.io/edpresso/what-is-mern-stack' target='_blank' rel="noopener noreferrer" style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}><strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>MERN</strong></a> stack to create minimalistic, <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>responsive</strong>, and <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>mobile-first</strong> applications.
                         <br></br>
-                        I'm a Lakers, Chargers, <strong style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}} data-tip="I'm really undecided">Chelsea/Tottenham/PSG</strong>, and die-hard <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>Dodgers</strong> fan.
+                        I'm a Lakers, Chargers, <strong style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}} data-tip="I'm really undecided">Chelsea/Tottenham</strong>, and die-hard <strong className='aboutStrong' style={isDark ? {color:'hsl(205, 100%, 65%)'} : {color:'royalblue'}}>Dodgers</strong> fan.
                     </p>
                     </Fade>
                 </section>
